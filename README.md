@@ -1,4 +1,4 @@
-# UnderDog Dev's:  
+# UnderDog Devs:  
 ## Built By:
 - Jason Long
 - Robert Allen
