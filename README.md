@@ -1,8 +1,9 @@
 # UnderDog Devs:  
 ## Built By:
-- Jason Long
-- Robert Allen
-- Jess Bonanno
+- [Jason Long](https://github.com/jlong5795)
+- [Robert Allen](https://github.com/robertjallen)
+- [Jess Bonanno](https://github.com/JessBonanno)
+- [Tom Barber](https://github.com/buggtb)
 
 
 # Project Overview
