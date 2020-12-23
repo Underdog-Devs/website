@@ -1,46 +1,46 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import '../CSS/Footer.css'
 
 export default function Footer() {
     const Twitter = () => (
           <li className="icon">
-            <a href="https://twitter.com/UnderdogDevs" target="_blank" class="icon brands alt fa-twitter">
+            <a href="https://twitter.com/UnderdogDevs" >
                 <FontAwesomeIcon icon={['fab', "twitter"]} />  
             </a>
         </li>)
 
     const Youtube = () => (
         <li className="icon">
-            <a href="https://youtube.com/channel/UC8rwCavxrhcfZTYPnR_VdSg" target="_blank" class="icon brands alt fa-youtube">
+            <a href="https://youtube.com/channel/UC8rwCavxrhcfZTYPnR_VdSg" >
                 <FontAwesomeIcon icon={['fab', "youtube"]} />
             </a>
         </li>)
     
-    const LinkedIn = () => (
-        <li className="icon">
-            <a href="#" class="icon brands alt fa-linkedin-in">
-                <FontAwesomeIcon icon={['fab', "linkedin"]} />
-            </a>
-        </li>)
+    // const LinkedIn = () => (
+    //     <li className="icon">
+    //         <a href="#" class="icon brands alt fa-linkedin-in">
+    //             <FontAwesomeIcon icon={['fab', "linkedin"]} />
+    //         </a>
+    //     </li>)
     
     const Slack = () => (
         <li className="icon">
-            <a href="http://underdog-devs.slack.com/" target="_blank" class="icon brands alt fa-slack">
+            <a href="http://underdog-devs.slack.com/">
                 <FontAwesomeIcon icon={['fab', "slack"]} />
             </a>
         </li>)
     
     const GitHub = () => (
         <li className="icon">
-            <a href="https://github.com/Underdog-Devs" target="_blank" class="icon brands alt fa-github">
+            <a href="https://github.com/Underdog-Devs">
                 <FontAwesomeIcon icon={['fab', "github"]} />
             </a>
         </li>)
     
     const Google = () => (
         <li className="icon">
-            <a href="mailto:rickw@underdogdevs.org" target="_blank" class="icon solid alt fa-envelope">
+            <a href="mailto:rickw@underdogdevs.org">
                 <FontAwesomeIcon icon={['fab', "google"]} />
             </a>
         </li>)
@@ -52,7 +52,7 @@ export default function Footer() {
                     <ul className="icons">
                         <Twitter/>
                         <Youtube/>
-						<LinkedIn/>
+						{/* <LinkedIn/> */}
                         <Slack/>
 						<GitHub/>
 						<Google/>
