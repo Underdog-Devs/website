@@ -1,5 +1,6 @@
 /* footer styles */
 .footer {
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: row;
   position: fixed;
@@ -8,27 +9,32 @@
   bottom: 0;
   left: 0;
   padding: .75rem;
-  background-color: #cecccc;
+  background-color: #d4d4d4;
   text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
 }
 .footer h5, .footer p{
   margin: 0;
   padding: 0;
+  color: #183B56;
+  ;
 }
 
 .footer-container{
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   margin: 0 auto;
   justify-content: center;
-  /* border: .9px solid #282c34c5; */
 }
 
 .icons{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* border: .9px solid #282c34c5; */
   padding: 0;
   margin: 0;
   padding-top: 1vh;
@@ -37,7 +43,6 @@
 
 .icon{
   text-decoration: none;
-  /* padding: 0 1rem; */
   margin: 0;
   background-color: rgb(206, 215, 255);
   border-radius: 50%;

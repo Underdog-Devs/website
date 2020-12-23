@@ -1,49 +1,44 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../CSS/Footer.css'
+import { Button} from 'antd';
+import 'antd/dist/antd.css';
 
 export default function Footer() {
     const Twitter = () => (
-          <li className="icon">
+            <Button type="" shape="circle">
             <a href="https://twitter.com/UnderdogDevs" >
                 <FontAwesomeIcon icon={['fab', "twitter"]} />  
             </a>
-        </li>)
+            </Button>)
 
     const Youtube = () => (
-        <li className="icon">
+        <Button type="" shape="circle">
             <a href="https://youtube.com/channel/UC8rwCavxrhcfZTYPnR_VdSg" >
                 <FontAwesomeIcon icon={['fab', "youtube"]} />
             </a>
-        </li>)
-    
-    // const LinkedIn = () => (
-    //     <li className="icon">
-    //         <a href="#" class="icon brands alt fa-linkedin-in">
-    //             <FontAwesomeIcon icon={['fab', "linkedin"]} />
-    //         </a>
-    //     </li>)
+        </Button>)
     
     const Slack = () => (
-        <li className="icon">
+        <Button type="" shape="circle">
             <a href="http://underdog-devs.slack.com/">
                 <FontAwesomeIcon icon={['fab', "slack"]} />
             </a>
-        </li>)
+        </Button>)
     
     const GitHub = () => (
-        <li className="icon">
+        <Button type="" shape="circle">
             <a href="https://github.com/Underdog-Devs">
                 <FontAwesomeIcon icon={['fab', "github"]} />
             </a>
-        </li>)
+        </Button>)
     
     const Google = () => (
-        <li className="icon">
+        <Button type="" shape="circle">
             <a href="mailto:rickw@underdogdevs.org">
                 <FontAwesomeIcon icon={['fab', "google"]} />
             </a>
-        </li>)
+        </Button>)
 
     return (
         <div className="footer">
@@ -52,7 +47,6 @@ export default function Footer() {
                     <ul className="icons">
                         <Twitter/>
                         <Youtube/>
-						{/* <LinkedIn/> */}
                         <Slack/>
 						<GitHub/>
 						<Google/>
