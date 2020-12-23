@@ -1,5 +1,11 @@
 import logo from './logo.svg';
-import './App.css';
+import './CSS/App.css';
+import Footer from './Components/Footer'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+// import { faCheckSquare, faTwitter } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-icons' 
+library.add(fab, faTwitter, faFacebookF)
 
 function App() {
   return (
@@ -18,6 +24,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Footer/>
     </div>
   );
 }
