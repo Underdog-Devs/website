@@ -1,4 +1,4 @@
-import Body from './Body';
+import Body from './Parts/Body';
 import './App.css';
 
 function App() {

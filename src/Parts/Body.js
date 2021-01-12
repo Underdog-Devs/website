@@ -1,5 +1,5 @@
 import React from 'react';
-import './Body.css';
+import '../CSS/Body.css';
 
 export default function Body(){
     return(
