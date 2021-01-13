@@ -1,4 +1,7 @@
-import logo from './logo.svg';
+
+import Body from './Parts/Body';
+import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
+import NavBar from './Parts/NavBar';
 import './CSS/App.css';
 import Footer from './Parts/Footer'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -9,19 +12,9 @@ library.add(fab, faTwitter, faFacebookF)
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Body/>
       </header>
       <Footer/>
     </div>
