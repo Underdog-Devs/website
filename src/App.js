@@ -1,5 +1,6 @@
 
 import Body from './Parts/Body';
+import LandingPage from './LandingPage/landingPage'
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import NavBar from './Parts/NavBar';
 import './CSS/App.css';
@@ -15,6 +16,7 @@ function App() {
       <NavBar />
       <header className="App-header">
         <Body/>
+          <LandingPage/>
       </header>
       <Footer/>
     </div>
