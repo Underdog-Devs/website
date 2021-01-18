@@ -42,7 +42,7 @@ export default function Footer() {
 
     return (
         <div className="footer">
-            <div className='footer-container'>
+            <div className='footer-container-1'>
                 <h5>Contact us on <strong>social media</strong></h5>
                     <ul className="icons">
                         <Twitter/>
@@ -52,23 +52,25 @@ export default function Footer() {
 						<Google/>
 					</ul>
             </div>
-            <div className='footer-container'>
-                <h5>Mentors</h5>
-                <p>Become a mentor</p>
-                <p>See the mentees</p>
+            <div className="footer-container">
+                <div className='footer-container-2'>
+                    <h5>Mentors</h5>
+                    <p>Become a mentor</p>
+                    <p>See the mentees</p>
+                </div>
+                <div className='footer-container-3'>
+                    <h5>Mentees</h5>
+                    <p>Become a mentee</p>
+                    <p>See the mentors</p>
+                </div>
+                <div className='footer-container-4'>
+                    <h5>Organization</h5>
+                    <p>About</p>
+                    <p>Terms</p>
+                    <p>Privacy</p>
+                    <p>Get involved</p>
+                </div>
             </div>
-            <div className='footer-container'>
-                <h5>Mentees</h5>
-                <p>Become a mentee</p>
-                <p>See the mentors</p>
-            </div>
-            <div className='footer-container'>
-                <h5>Organization</h5>
-                <p>About</p>
-                <p>Terms</p>
-                <p>Privacy</p>
-                <p>Get involved</p>
-            </div>            
         </div>
     )
 }
