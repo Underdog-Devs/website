@@ -1,6 +1,9 @@
 .nav-container {
     padding: 10px;
     background-color: #E5E5E5;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 
