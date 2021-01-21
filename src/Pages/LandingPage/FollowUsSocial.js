@@ -47,7 +47,7 @@ export default function FollowUsSocial() {
     <div className="follow-us">
       {/* header with links */}
       <div className='follow-us-header'>
-        <h5>Follow Us On <strong>Social Media</strong></h5>
+        <h5>Follow Us On Social Media</h5>
           <ul className="icons">
             <Twitter/>
             <Youtube/>

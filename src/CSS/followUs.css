@@ -1,4 +1,16 @@
+.follow-us{
+  width: 100vw;
+  background: #fff;
+}
+.follow-us-header h5{
+  font-size: 48px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+}
 .tweetContainer{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
