@@ -5,7 +5,6 @@ import {
   CoffeeOutlined,
   SlackOutlined,
   UserOutlined,
-  VideoCameraOutlined,
 } from '@ant-design/icons';
 
 
@@ -62,7 +61,7 @@ const MetricsComponent = () => {
          align={'middle'}>
       {metricDummyData.map((data, idx) => {
         return (
-          <Col className={'metric-item-container'} xs={12} sm={12} md={6} lg={6} xl={6} >
+          <Col key={idx} className={'metric-item-container'} xs={12} sm={12} md={6} lg={6} xl={6} >
             <Row className={'metric-icon-container'} justify={'center'}>
               <span className={'metric-icon'}>{data.icon}</span>
             </Row>
