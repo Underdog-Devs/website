@@ -1,11 +1,14 @@
 import React from 'react';
 import FollowUsSocial from './FollowUsSocial'
+import GetInvolved from './GetInvolved';
+import styles from '../../CSS/LandingPage.module.css'
 
 export default function LandingPage(){
     return(
-        <div className="landing-page">
+        <div className={styles.landingPage}>
             <FollowUsSocial/>
-            Landing Page Components Here!
+            <GetInvolved/>
+            {/* Landing Page Components Here! */}
         </div>
     )
 }
