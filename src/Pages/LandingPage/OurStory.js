@@ -1,10 +1,6 @@
 import React from 'react'
-// import 'antd/dist/antd.css';
-// import { Card } from 'antd';
 import '../../CSS/OurStory.css'
 import coworkers from '../../Assets/co_workers.png'
-
-// const { Meta } = Card;
 
 export default function OurStory() {
   return (
