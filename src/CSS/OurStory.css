@@ -1,0 +1,14 @@
+.our-story{
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 85%;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.our-story h3{
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 68px;
+}
