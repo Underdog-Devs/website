@@ -1,14 +1,62 @@
 .our-story{
-  margin-top: 10vw;
+  padding-top: 10vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 85%;
   margin: 0 auto;
-  border: 1px solid red;
+  text-align: center;
 }
-.our-story h3{
+.our-story-above{
+  margin: 0 auto; 
+}
+
+.our-story-above p{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  /* or 145% */
+  text-align: center;
+  color: #5A7184;
+}
+
+.our-story-above h3{
   font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 68px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 68px;
+  /* identical to box height, or 121% */
+
+  letter-spacing: 0.2px;
+
+  color: #183B56;
 }
+.our-story-hero{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.our-story-hero-image{
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .our-story-above h3{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .our-story-hero{
+    width: 99%;
+  }
+  .our-story-above p{
+  font-size: 18px;
+  line-height: 25px;
+  /* or 139% */
+
+  color: #5A7184
+  }
+}  
