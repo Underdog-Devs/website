@@ -1,0 +1,64 @@
+.mentor{
+  padding: 10vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.mentor-above{
+  margin: 0 auto; 
+}
+
+.mentor-above p{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  /* or 145% */
+  text-align: center;
+  color: #5A7184;
+}
+
+.mentor-above h3{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 68px;
+  /* identical to box height, or 121% */
+
+  letter-spacing: 0.2px;
+
+  color: #183B56;
+}
+.mentor-hero{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mentor-hero-image{
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .mentor{
+    flex-direction: column;
+  }
+  .mentor-above h3{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .mentor-hero{
+    width: 99%;
+  }
+  .mentor-above p{
+  font-size: 18px;
+  line-height: 25px;
+  /* or 139% */
+  color: #5A7184
+  }
+}  
