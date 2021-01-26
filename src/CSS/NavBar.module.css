@@ -1,0 +1,45 @@
+.navContainer {
+  padding: 10px;
+  background-color: #e5e5e5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.linkItem {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.linkText {
+  padding-top: 15px;
+}
+
+.getInvolvedButton {
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menuButton {
+  background-color: #e5e5e5;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .linksContainer {
+    display: none;
+  }
+  .buttonContainer {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .menuContainer {
+    display: none;
+  }
+}
