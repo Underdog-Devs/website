@@ -64,11 +64,11 @@ export default function FollowUsSocial() {
         />
 
         <TwitterTweetEmbed
-          tweetId={'1340821358184460289'}
+          tweetId={'1317666630378397697'}
         />
 
         <TwitterTweetEmbed
-          tweetId={'1340821358184460289'}
+          tweetId={'1315510499954491392'}
         />
       </div>
     </div>
