@@ -4,7 +4,6 @@
 - [Robert Allen](https://github.com/robertjallen)
 - [Jess Bonanno](https://github.com/JessBonanno)
 - [Tom Barber](https://github.com/buggtb)
-- [William McQuaid](https://github.com/whmcquaid)
 
 # Project Overview
 
