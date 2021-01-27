@@ -1,9 +1,5 @@
 import React from 'react'
-<<<<<<< HEAD
-import '../../CSS/FollowUsSocial.css'
-=======
 import styles from '../../CSS/followUs.module.css'
->>>>>>> 7d85493aab12a4359ecdf4aea90669ca82aec02d
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Button} from 'antd';
 import 'antd/dist/antd.css';
