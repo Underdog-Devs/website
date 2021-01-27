@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "../../CSS/GetInvolved.module.css"
-import {Row, Col, Button, Input} from 'antd'
+import {Row, Button, Input} from 'antd'
 import {MailOutlined} from '@ant-design/icons'
 
 
