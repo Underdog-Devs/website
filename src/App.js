@@ -12,9 +12,7 @@ function App() {
   return (
     <div className={styles.app}>
       <NavBar />
-      <header className={styles.appHeader}>
-        <LandingPage />
-      </header>
+      <LandingPage />
       <Footer />
     </div>
   );
