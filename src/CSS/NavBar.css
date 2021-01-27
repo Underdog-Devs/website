@@ -1,0 +1,48 @@
+.nav-container {
+    padding: 10px;
+    background-color: #E5E5E5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.link-item {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.link-text {
+    padding-top: 15px;
+}
+
+.get-involved-button {
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-button {
+    background-color: #E5E5E5;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .links-container {
+        display: none;
+    }
+    .button-container {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .menu-container {
+        display: none;
+    }
+}
+

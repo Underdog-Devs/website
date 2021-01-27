@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import styles from '../CSS/Footer.module.css'
+import '../CSS/Footer.css'
 import { Button} from 'antd';
 import 'antd/dist/antd.css';
 
@@ -41,10 +41,10 @@ export default function Footer() {
         </Button>)
 
     return (
-        <div className={styles.footer}>
-            <div className={styles.footerContainer1}>
+        <div className="footer">
+            <div className='footer-container-1'>
                 <h5>Contact us on <strong>social media</strong></h5>
-                    <ul className={styles.icons}>
+                    <ul className="icons">
                         <Twitter/>
                         <Youtube/>
                         <Slack/>
@@ -52,18 +52,18 @@ export default function Footer() {
 						<Google/>
 					</ul>
             </div>
-            <div className={styles.footerContainer}>
-                <div className={styles.footerContainer2}>
+            <div className="footer-container">
+                <div className='footer-container-2'>
                     <h5>Mentors</h5>
                     <p>Become a mentor</p>
                     <p>See the mentees</p>
                 </div>
-                <div className={styles.footerContainer3}>
+                <div className='footer-container-3'>
                     <h5>Mentees</h5>
                     <p>Become a mentee</p>
                     <p>See the mentors</p>
                 </div>
-                <div className={styles.footerContainer4}>
+                <div className='footer-container-4'>
                     <h5>Organization</h5>
                     <p>About</p>
                     <p>Terms</p>

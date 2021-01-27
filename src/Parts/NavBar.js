@@ -1,43 +1,43 @@
 import React from 'react';
 import { Button, Col, Row } from 'antd';
 import logo from '../Assets/UDD_logo.svg';
-import styles from '../CSS/NavBar.module.css';
+import '../CSS/NavBar.css';
 import { MenuOutlined } from '@ant-design/icons';
 
 
 const NavBar = () => {
   return (
-    <Row className={styles.navContainer}
+    <Row className={'nav-container'}
          align={'middle'}
     >
-      <Col className={styles.logoContainer} span={7} offset={3} align={'start'}>
-        <img src={logo} alt={'logo'} className={styles.logo}
+      <Col className={'logo-container'} span={7} offset={3} align={'start'}>
+        <img src={logo} alt={'logo'} className={'logo'}
         />
       </Col>
-      <Col className={styles.linksContainer} span={10}>
+      <Col className={'links-container'} span={10}>
         <Row
-          className={styles.linksRow}
+          className={'links-row'}
           justify={'space-around'}
           align={'bottom'}
         >
-          <Col className={styles.linkItem}>
+          <Col className={'link-item'}>
             <p>Home</p>
           </Col>
-          <Col className={styles.linkItem}>
-            <p className={styles.linkText}
+          <Col className={'link-item'}>
+            <p className={'link-text'}
             >Mentees</p>
           </Col>
-          <Col className={styles.linkItem}>
+          <Col className={'link-item'}>
             <p>Mentors</p>
           </Col>
         </Row>
       </Col>
-      <Col className={styles.buttonContainer} span={4}>
-        <Button className={styles.getInvolvedButton} type={'primary'} ghost>Get
+      <Col className={'button-container'} span={4}>
+        <Button className={'get-involved-button'} type={'primary'} ghost>Get
           Involved</Button>
       </Col>
-      <Col className={styles.menuContainer} span={14} align={'end'}>
-        <Button className={styles.menuButton} icon={<MenuOutlined />}/>
+      <Col className={'menu-container'} span={14} align={'end'}>
+        <Button className={'menu-button'} icon={<MenuOutlined />}/>
       </Col>
     </Row>
   );

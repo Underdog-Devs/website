@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../CSS/followUs.module.css'
+import followUs from '../../CSS/followUs.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Button} from 'antd';
 import 'antd/dist/antd.css';
@@ -44,9 +44,9 @@ export default function FollowUsSocial() {
 
 
   return (
-    <div className={styles.followUs}>
+    <div className="follow-us">
       {/* header with links */}
-      <div className={styles.header}>
+      <div className='follow-us-header'>
         <h5>Follow Us On Social Media</h5>
           <ul className="icons">
             <Twitter/>

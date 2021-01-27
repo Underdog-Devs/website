@@ -1,0 +1,39 @@
+.metrics-main-container {
+    margin-top: 50px;
+    background-color: #FCD8C1;
+    color: #183B56;
+    height: 230px;
+    padding: 0 10%;
+}
+
+.metric-icon-container {
+    font-size: .8rem;
+}
+
+.metric-icon {
+}
+
+.metric {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 1.7rem;
+    color: #72625B;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+.metric-title {
+    font-size: .8rem;
+    color: #72625B;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .metrics-main-container {
+        height: 350px;
+    }
+}
+
