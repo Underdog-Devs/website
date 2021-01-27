@@ -72,18 +72,18 @@
     font-weight: 700;
     font-size: 16px;
   }
-  .footer-container p {
+  .footerContainer p {
     font-weight: 400;
     font-size: 14px;
   }
   .footer {
     flex-direction: column-reverse;
   }
-  .footer-container {
+  .footerContainer {
     flex-direction: row-reverse;
     flex-wrap: wrap;
   }
-  .footer .footer-container-1 {
+  .footer .footerContainer1 {
     align-self: center;
   }
 }
