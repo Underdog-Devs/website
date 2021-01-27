@@ -1,15 +1,20 @@
 import React from 'react';
 import FollowUsSocial from './FollowUsSocial';
 import MetricsComponent from './MetricsComponent';
-import GetInvolved from './GetInvolved';
-import styles from '../../CSS/LandingPage.module.css';
+import '../../CSS/LandingPage.css'
+import OurStory from './OurStory';
+import WhatIsAMentee from './WhatIsAMentee';
+import WhatIsAMentor from './WhatIsAMentor';
 
 export default function LandingPage() {
   return (
-    <div className={styles.LandingPage}>
+    <div className='landing-page'>
+      <OurStory/>
       <MetricsComponent />
+      <WhatIsAMentor/>
+      <WhatIsAMentee />
       <FollowUsSocial />
-      <GetInvolved />
+      
       {/*Landing Page Components Here!*/}
     </div>
   );
