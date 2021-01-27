@@ -2,7 +2,7 @@ import React from 'react';
 import FollowUsSocial from './FollowUsSocial';
 import MetricsComponent from './MetricsComponent';
 import GetInvolved from './GetInvolved';
-import OurStory from '../LandingPage/OurStory'
+import OurStory from './OurStory'
 import styles from '../../CSS/LandingPage.module.css';
 
 export default function LandingPage() {
