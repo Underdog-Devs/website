@@ -8,11 +8,11 @@
   text-align: center;
   background: rgba(45, 117, 220, 0.3);
 }
-.mentee-above{
+.menteeAbove{
   margin: 0 auto; 
 }
 
-.mentee-above p{
+.menteeAbove p{
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: normal;
@@ -23,7 +23,7 @@
   color: #5A7184;
 }
 
-.mentee-above h3{
+.menteeAbove h3{
   font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
@@ -35,12 +35,12 @@
 
   color: #183B56;
 }
-.mentee-hero{
+.menteeHero{
   width: 80%;
   margin: 0 auto;
 }
 
-.mentee-hero-image{
+.menteeHeroImage{
   width: 100%;
   border-radius: 5px;
 }
@@ -49,14 +49,14 @@
   .mentee{
     flex-direction: column;
   }
-  .mentee-above h3{
+  .menteeAbove h3{
     font-size: 32px;
     line-height: 40px;
   }
-  .mentee-hero{
+  .menteeHero{
     width: 99%;
   }
-  .mentee-above p{
+  .menteeAbove p{
   font-size: 18px;
   line-height: 25px;
   /* or 139% */

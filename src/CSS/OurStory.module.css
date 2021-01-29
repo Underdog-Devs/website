@@ -1,4 +1,4 @@
-.our-story{
+.ourStory{
   padding-top: 10vw;
   display: flex;
   flex-direction: column;
@@ -7,11 +7,11 @@
   margin: 0 auto;
   text-align: center;
 }
-.our-story-above{
+.ourStoryAbove{
   margin: 0 auto; 
 }
 
-.our-story-above p{
+.ourStoryAbove p{
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: normal;
@@ -22,7 +22,7 @@
   color: #5A7184;
 }
 
-.our-story-above h3{
+.ourStoryAbove h3{
   font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
@@ -34,25 +34,25 @@
 
   color: #183B56;
 }
-.our-story-hero{
+.ourStoryHero{
   width: 80%;
   margin: 0 auto;
 }
 
-.our-story-hero-image{
+.ourStoryHeroImage{
   width: 100%;
   border-radius: 5px;
 }
 
 @media screen and (max-width: 480px) {
-  .our-story-above h3{
+  .ourStoryAbove h3{
     font-size: 32px;
     line-height: 40px;
   }
-  .our-story-hero{
+  .ourStoryHero{
     width: 99%;
   }
-  .our-story-above p{
+  .ourStoryAbove p{
   font-size: 18px;
   line-height: 25px;
   /* or 139% */

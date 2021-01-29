@@ -1,7 +1,7 @@
 import React from 'react';
 import FollowUsSocial from './FollowUsSocial';
 import MetricsComponent from './MetricsComponent';
-import '../../CSS/LandingPage.css'
+import '../../CSS/LandingPage.module.css'
 import OurStory from './OurStory';
 import WhatIsAMentee from './WhatIsAMentee';
 
