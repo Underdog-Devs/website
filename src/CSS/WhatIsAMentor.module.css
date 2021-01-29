@@ -1,17 +1,17 @@
-.our-story{
-  padding-top: 10vw;
+.mentor{
+  padding: 10vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   justify-content: center;
-  max-width: 85%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
-.our-story-above{
+.mentorAbove{
   margin: 0 auto; 
 }
 
-.our-story-above p{
+.mentorAbove p{
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: normal;
@@ -22,7 +22,7 @@
   color: #5A7184;
 }
 
-.our-story-above h3{
+.mentorAbove h3{
   font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
@@ -34,29 +34,31 @@
 
   color: #183B56;
 }
-.our-story-hero{
+.mentorHero{
   width: 80%;
   margin: 0 auto;
 }
 
-.our-story-hero-image{
+.mentorHeroImage{
   width: 100%;
   border-radius: 5px;
 }
 
 @media screen and (max-width: 480px) {
-  .our-story-above h3{
+  .mentor{
+    flex-direction: column;
+  }
+  .mentorAbove h3{
     font-size: 32px;
     line-height: 40px;
   }
-  .our-story-hero{
+  .mentorHero{
     width: 99%;
   }
-  .our-story-above p{
+  .mentorAbove p{
   font-size: 18px;
   line-height: 25px;
   /* or 139% */
-
   color: #5A7184
   }
 }  
