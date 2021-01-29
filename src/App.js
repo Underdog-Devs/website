@@ -1,5 +1,5 @@
 // import Body from './Parts/Body';
-import LandingPage from './Pages/LandingPage/landingPage';
+import LandingPage from './Pages/LandingPage/LandingPage';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import NavBar from './Parts/NavBar';
 import styles from './CSS/App.module.css';
