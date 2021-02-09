@@ -4,16 +4,18 @@ import MetricsComponent from './MetricsComponent';
 import '../../CSS/LandingPage.module.css'
 import OurStory from './OurStory';
 import WhatIsAMentee from './WhatIsAMentee';
+import WhatIsAMentor from './WhatIsAMentor';
 
 export default function LandingPage() {
   return (
-    <div className='landing-page'>
+    <div className={styles.landingPage}>
       <OurStory/>
       <MetricsComponent />
       <WhatIsAMentee />
       <FollowUsSocial />
-      
-      {/*Landing Page Components Here!*/}
+      <WhatIsAMentor/>
+      <WhatIsAMentee />
+      <FollowUsSocial />
     </div>
   );
 }
