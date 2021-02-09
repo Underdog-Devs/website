@@ -1,0 +1,64 @@
+.mentor{
+  padding: 10vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.mentorAbove{
+  margin: 0 auto; 
+}
+
+.mentorAbove p{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  /* or 145% */
+  text-align: center;
+  color: #5A7184;
+}
+
+.mentorAbove h3{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 68px;
+  /* identical to box height, or 121% */
+
+  letter-spacing: 0.2px;
+
+  color: #183B56;
+}
+.mentorHero{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mentorHeroImage{
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .mentor{
+    flex-direction: column;
+  }
+  .mentorAbove h3{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .mentorHero{
+    width: 99%;
+  }
+  .mentorAbove p{
+  font-size: 18px;
+  line-height: 25px;
+  /* or 139% */
+  color: #5A7184
+  }
+}  
