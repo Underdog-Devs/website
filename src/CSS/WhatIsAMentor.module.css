@@ -1,17 +1,17 @@
-.ourStory{
-  margin: 10vw auto;
-  padding: 5vw 0;
+.mentor{
+  padding: 10vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   justify-content: center;
-  max-width: 85%;
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
 }
-.ourStoryAbove{
+.mentorAbove{
   margin: 0 auto; 
 }
 
-.ourStoryAbove p{
+.mentorAbove p{
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: normal;
@@ -22,7 +22,7 @@
   color: #5A7184;
 }
 
-.ourStoryAbove h3{
+.mentorAbove h3{
   font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
@@ -34,32 +34,31 @@
 
   color: #183B56;
 }
-.ourStoryHero{
+.mentorHero{
   width: 80%;
   margin: 0 auto;
 }
 
-.ourStoryHeroImage{
+.mentorHeroImage{
   width: 100%;
   border-radius: 5px;
 }
 
 @media screen and (max-width: 480px) {
-  .ourStory{
-    margin: 20vw auto
+  .mentor{
+    flex-direction: column;
   }
-  .ourStoryAbove h3{
+  .mentorAbove h3{
     font-size: 32px;
     line-height: 40px;
   }
-  .ourStoryHero{
+  .mentorHero{
     width: 99%;
   }
-  .ourStoryAbove p{
+  .mentorAbove p{
   font-size: 18px;
   line-height: 25px;
   /* or 139% */
-
   color: #5A7184
   }
 }  

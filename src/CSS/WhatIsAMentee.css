@@ -1,17 +1,18 @@
-.ourStory{
-  margin: 10vw auto;
-  padding: 5vw 0;
+.mentee{
+  padding: 10vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  max-width: 85%;
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
+  background: rgba(45, 117, 220, 0.3);
 }
-.ourStoryAbove{
+.mentee-above{
   margin: 0 auto; 
 }
 
-.ourStoryAbove p{
+.mentee-above p{
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: normal;
@@ -22,7 +23,7 @@
   color: #5A7184;
 }
 
-.ourStoryAbove h3{
+.mentee-above h3{
   font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
@@ -34,28 +35,28 @@
 
   color: #183B56;
 }
-.ourStoryHero{
+.mentee-hero{
   width: 80%;
   margin: 0 auto;
 }
 
-.ourStoryHeroImage{
+.mentee-hero-image{
   width: 100%;
   border-radius: 5px;
 }
 
 @media screen and (max-width: 480px) {
-  .ourStory{
-    margin: 20vw auto
+  .mentee{
+    flex-direction: column;
   }
-  .ourStoryAbove h3{
+  .mentee-above h3{
     font-size: 32px;
     line-height: 40px;
   }
-  .ourStoryHero{
+  .mentee-hero{
     width: 99%;
   }
-  .ourStoryAbove p{
+  .mentee-above p{
   font-size: 18px;
   line-height: 25px;
   /* or 139% */
