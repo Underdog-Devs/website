@@ -1,9 +1,9 @@
 import React from 'react'
-import followUs from '../../CSS/followUs.css'
+import styles from '../../CSS/followUs.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Button} from 'antd';
 import 'antd/dist/antd.css';
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import {TwitterTweetEmbed} from 'react-twitter-embed';
 export default function FollowUsSocial() {
 
       const Twitter = () => (
@@ -44,9 +44,9 @@ export default function FollowUsSocial() {
 
 
   return (
-    <div className="follow-us">
+    <div className={styles.followUs}>
       {/* header with links */}
-      <div className='follow-us-header'>
+      <div className={styles.followUsHeader}>
         <h5>Follow Us On Social Media</h5>
           <ul className="icons">
             <Twitter/>
@@ -58,7 +58,7 @@ export default function FollowUsSocial() {
       </div>
 
       {/* tweetContainer */}
-      <div className="tweetContainer">
+      <div className={styles.tweetContainer}>
         <TwitterTweetEmbed
           tweetId={'1340821358184460289'}
         />
