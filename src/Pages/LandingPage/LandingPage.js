@@ -12,6 +12,7 @@ export default function LandingPage() {
       <OurStory/>
       <MetricsComponent />
       <WhatIsAMentee />
+      <WhatIsAMentor />
       <FollowUsSocial />
     </div>
   );
