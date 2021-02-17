@@ -1,0 +1,66 @@
+.mentee{
+  padding: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(45, 117, 220, 0.3);
+}
+.menteeAbove{
+  margin: 0 auto; 
+}
+
+.menteeAbove p{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  /* or 145% */
+  text-align: center;
+  color: #5A7184;
+}
+
+.menteeAbove h3{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 68px;
+  /* identical to box height, or 121% */
+
+  letter-spacing: 0.2px;
+
+  color: #183B56;
+}
+.menteeHero{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.menteeHeroImage{
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .mentee{
+    flex-direction: column;
+  }
+  .menteeAbove h3{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .menteeHero{
+    width: 99%;
+  }
+  .menteeAbove p{
+  font-size: 18px;
+  line-height: 25px;
+  /* or 139% */
+
+  color: #5A7184
+  }
+}  

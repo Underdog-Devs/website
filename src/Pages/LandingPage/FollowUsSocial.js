@@ -1,11 +1,11 @@
 import React from 'react'
-import styles from '../../CSS/followUs.module.css'
+import styles from '../../CSS/FollowUsSocial.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Button} from 'antd';
 import 'antd/dist/antd.css';
 import {TwitterTweetEmbed} from 'react-twitter-embed';
 export default function FollowUsSocial() {
-
+// comment
       const Twitter = () => (
         <Button type="" shape="circle">
         <a href="https://twitter.com/UnderdogDevs" >
@@ -64,14 +64,13 @@ export default function FollowUsSocial() {
         />
 
         <TwitterTweetEmbed
-          tweetId={'1340821358184460289'}
+          tweetId={'1317666630378397697'}
         />
 
         <TwitterTweetEmbed
-          tweetId={'1340821358184460289'}
+          tweetId={'1315510499954491392'}
         />
       </div>
     </div>
-    
   )
 }

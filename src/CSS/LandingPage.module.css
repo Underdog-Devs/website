@@ -1,3 +1,13 @@
 .landingPage {
+  margin-top: 10vw;
   width: 100%;
 }
+
+
+
+
+@media screen and (max-width: 480px) {
+  .landingPage{
+      margin-top: 15vw;
+  }
+} 
