@@ -1,4 +1,3 @@
-// import Body from './Parts/Body';
 import LandingPage from './Pages/LandingPage/LandingPage';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import NavBar from './Parts/NavBar';
@@ -13,9 +12,7 @@ function App() {
   return (
     <div className={styles.app}>
       <NavBar />
-      <header className={styles.appHeader}>
-        <LandingPage />
-      </header>
+      <LandingPage />
       <Footer />
     </div>
   );

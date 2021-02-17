@@ -5,7 +5,7 @@
   width: 100%;
   background: #fff;
 }
-.header h5 {
+.followUsHeader h5 {
   font-size: 48px;
   font-family: 'Raleway';
   font-weight: 700;
@@ -24,7 +24,7 @@
   .tweetContainer {
     flex-direction: column;
   }
-  .header h5 {
+  .followUsHeader h5 {
     font-size: 24px;
     font-family: 'Raleway';
     font-weight: 700;
