@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from '../../CSS/OurStory.module.css'
-import coworkers from '../../Assets/co_workers.png'
+import styles from '../CSS/OurStory.module.css'
+import coworkers from '../Assets/co_workers.png'
 
 export default function OurStory() {
   return (

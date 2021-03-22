@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../CSS/FollowUsSocial.module.css'
+import styles from '../CSS/FollowUsSocial.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Button} from 'antd';
 import 'antd/dist/antd.css';

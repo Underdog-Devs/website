@@ -1,6 +1,6 @@
 import React from 'react'
-import pair from '../../Assets/pair_programming.svg';
-import styles from '../../CSS/WhatIsAMentee.module.css'
+import pair from '../Assets/pair_programming.svg';
+import styles from '../CSS/WhatIsAMentee.module.css'
 
 
 export default function WhatIsAMentee() {

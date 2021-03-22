@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../CSS/MetricsComponent.module.css';
+import styles from '../CSS/MetricsComponent.module.css';
 import { Col, Row } from 'antd';
 import { CoffeeOutlined, SlackOutlined, UserOutlined } from '@ant-design/icons';
 

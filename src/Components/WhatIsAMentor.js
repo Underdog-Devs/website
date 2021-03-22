@@ -1,6 +1,6 @@
 import React from 'react'
-import meet from '../../Assets/meeting.svg';
-import styles from '../../CSS/WhatIsAMentor.module.css'
+import meet from '../Assets/meeting.svg';
+import styles from '../CSS/WhatIsAMentor.module.css'
 
 
 export default function WhatIsAMentor() {
