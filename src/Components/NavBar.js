@@ -6,29 +6,31 @@ import { MenuOutlined } from '@ant-design/icons';
 
 
 const NavBar = () => {
+  const scrollTo = (el) => {
+    console.log(el);
+    let target = document.getElementById(el);
+    target.scrollIntoView({
+      block: 'center',
+      behavior: 'smooth',
+      inline: 'center'
+    });
+  }
+
   return (
-    <Row className={styles.navContainer}
-         align={'middle'}
-    >
-      <Col className={styles.logoContainer} span={7} offset={3} align={'start'}>
-        <img src={logo} alt={'logo'} className={styles.logo}
-        />
+    <Row className={styles.navContainer} align={'middle'} >
+      <Col className={styles.logoContainer} align={'start'} >
+        <img src={logo} alt={'logo'} className={styles.logo} />
       </Col>
-      <Col className={styles.linksContainer} span={10}>
-        <Row
-          className={styles.linksRow}
-          justify={'space-around'}
-          align={'bottom'}
-        >
-          <Col className={styles.linkItem}>
-            <p>Home</p>
+      <Col className={styles.linksContainer} >
+        <Row className={styles.linksRow} justify={'space-around'} align={'center'} >
+          <Col className={styles.linkItem} >
+            <p className={styles.navP} onClick={() => scrollTo('our-story')}>Home</p>
           </Col>
           <Col className={styles.linkItem}>
-            <p className={styles.linkText}
-            >Mentees</p>
+            <p className={styles.navP} onClick={() => scrollTo('mentee')}>Mentees</p>
           </Col>
           <Col className={styles.linkItem}>
-            <p>Mentors</p>
+            <p className={styles.navP} onClick={() => scrollTo('mentor')}>Mentors</p>
           </Col>
         </Row>
       </Col>

@@ -4,7 +4,19 @@
   position: fixed;
   top: 0;
   width: 100%;
+  justify-content: space-around;
+
 }
+
+.logoContainer {
+  margin-left: 3%;
+}
+
+.linksContainer{
+  width: 50%;
+  margin: 0 auto;
+}
+
 
 .logo {
   height: 50px;
@@ -12,7 +24,25 @@
 }
 
 .linkItem {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
+}
+
+.linkItem:hover{
+  padding: 5px;
+  border: 1px solid rgb(245, 121, 20);
+  color: rgb(245, 121, 20);
+}
+
+.linkItem:active{
+  background-color: rgb(245, 121, 20);
+  color: #e5e5e5;
+}
+
+.linkItem:focus{
+  outline: none;
 }
 
 .linkText {
@@ -20,6 +50,8 @@
 }
 
 .getInvolvedButton {
+  width: 90%;
+  margin: 0 auto;
   border-radius: 5px;
   font-family: 'Open Sans', sans-serif;
 }
