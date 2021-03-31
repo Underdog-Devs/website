@@ -40,6 +40,10 @@ export default function Footer() {
             </a>
         </Button>)
 
+    const defaultLink = function () {
+        window.location.href = 'https://www.google.com';
+    };
+
     return (
         <div className={styles.footer}>
             <div className={styles.footerContainer1}>
@@ -55,20 +59,37 @@ export default function Footer() {
             <div className={styles.footerContainer}>
                 <div className={styles.footerContainer2}>
                     <h5>Mentors</h5>
-                    <p>Become a mentor</p>
-                    <p>See the mentees</p>
+                    <button 
+                        type="button" 
+                        class="ant-btn ant-btn-link block"
+                        onClick={defaultLink}
+                    >Become a mentor</button>
+                    <button 
+                        type="button" 
+                        class="ant-btn ant-btn-link block"
+                        onClick={defaultLink}
+                    >See the mentees</button>
                 </div>
                 <div className={styles.footerContainer3}>
                     <h5>Mentees</h5>
-                    <p>Become a mentee</p>
-                    <p>See the mentors</p>
+                    <button 
+                        type="button" 
+                        class="ant-btn ant-btn-link block"
+                        onClick={defaultLink}
+                    >Become a mentee</button>
+                    <button 
+                        type="button" 
+                        class="ant-btn ant-btn-link block"
+                        onClick={defaultLink}
+                    >See the mentors</button>
                 </div>
                 <div className={styles.footerContainer4}>
                     <h5>Organization</h5>
-                    <p>About</p>
-                    <p>Terms</p>
-                    <p>Privacy</p>
-                    <p>Get involved</p>
+                    <button 
+                        type="button" 
+                        class="ant-btn ant-btn-link block"
+                        onClick={defaultLink}
+                    >Get involved</button>
                 </div>
             </div>
         </div>
