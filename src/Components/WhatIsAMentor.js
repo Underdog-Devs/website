@@ -5,7 +5,7 @@ import styles from '../CSS/WhatIsAMentor.module.css'
 
 export default function WhatIsAMentor() {
   return (
-    <div className={styles.mentor}>
+    <div className={styles.mentor} id='mentor'>
         {/* hero above */}
         <div className={styles.mentorAbove}>
           <h3 className={styles.mentorHeader}>What Is A Mentor?</h3>

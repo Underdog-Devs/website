@@ -4,7 +4,7 @@ import coworkers from '../Assets/co_workers.png'
 
 export default function OurStory() {
   return (
-    <div className={styles.ourStory}>
+    <div className={styles.ourStory} id='our-story'>
         {/* hero above */}
         <div className={styles.ourStoryAbove}>
           <h3 className={styles.ourStoryHeader}>Our Story</h3>

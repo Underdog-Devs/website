@@ -5,7 +5,7 @@ import styles from '../CSS/WhatIsAMentee.module.css'
 
 export default function WhatIsAMentee() {
   return (
-    <div className={styles.mentee}>
+    <div className={styles.mentee} id='mentee'>
         {/* hero above */}
         <div className={styles.menteeAbove}>
           <h3 className={styles.menteeHeader}>What Is A Mentee?</h3>
