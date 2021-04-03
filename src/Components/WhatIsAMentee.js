@@ -9,7 +9,7 @@ export default function WhatIsAMentee() {
         {/* hero above */}
         <div className={styles.menteeAbove}>
           <h3 className={styles.menteeHeader}>What Is A Mentee?</h3>
-          <p>Each mentee is picked especially for you, based on availability, experience, education, practice topics, and target companies.</p>
+          <p>Our mentees are aspiring software engineers from either disadvantaged backgrounds or are formerly incarcerated. They are ambitious and determined people learning the ins-and-outs of the software industry in order to land full time offers.</p>
         </div>
 
         {/* hero image */}
