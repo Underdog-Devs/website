@@ -3,6 +3,7 @@ import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import NavBar from './Components/NavBar';
 import styles from './CSS/App.module.css';
 import Footer from './Components/Footer';
+import SpringIntoSwift from './Components/SpringIntoSwift';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-icons';
