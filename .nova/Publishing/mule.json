@@ -3,5 +3,5 @@
   "localPath" : "build",
   "remotePath" : "\/root\/underdog",
   "server" : "mule",
-  "usesPublishing" : false
+  "usesPublishing" : true
 }
