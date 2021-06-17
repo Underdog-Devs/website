@@ -1,4 +1,4 @@
-.ourStory{
+.ourStory {
   margin: 10vw auto;
   padding: 5vw 0;
   display: flex;
@@ -7,11 +7,11 @@
   max-width: 85%;
   text-align: center;
 }
-.ourStoryAbove{
-  margin: 0 auto; 
+.ourStoryAbove {
+  margin: 0 auto;
 }
 
-.ourStoryAbove p{
+.ourStoryAbove p {
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: normal;
@@ -19,10 +19,10 @@
   line-height: 32px;
   /* or 145% */
   text-align: center;
-  color: #5A7184;
+  color: #5a7184;
 }
 
-.ourStoryAbove h3{
+.ourStoryAbove h3 {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
@@ -32,34 +32,42 @@
 
   letter-spacing: 0.2px;
 
-  color: #183B56;
+  color: #183b56;
 }
-.ourStoryHero{
+
+.linkscontainer {
+  padding: 1em;
+}
+
+.linkscontainer a {
+  padding: 1.5em 1em;
+}
+.ourStoryHero {
   width: 80%;
   margin: 0 auto;
 }
 
-.ourStoryHeroImage{
+.ourStoryHeroImage {
   width: 100%;
   border-radius: 5px;
 }
 
 @media screen and (max-width: 480px) {
-  .ourStory{
-    margin: 20vw auto
+  .ourStory {
+    margin: 20vw auto;
   }
-  .ourStoryAbove h3{
+  .ourStoryAbove h3 {
     font-size: 32px;
     line-height: 40px;
   }
-  .ourStoryHero{
+  .ourStoryHero {
     width: 99%;
   }
-  .ourStoryAbove p{
-  font-size: 18px;
-  line-height: 25px;
-  /* or 139% */
+  .ourStoryAbove p {
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
 
-  color: #5A7184
+    color: #5a7184;
   }
-}  
+}
