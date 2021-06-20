@@ -28,10 +28,10 @@
   font-weight: bold;
   font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
+  padding: 5px;
 }
 
 .linkItem:hover{
-  padding: 5px;
   border: 1px solid rgb(245, 121, 20);
   color: rgb(245, 121, 20);
 }
