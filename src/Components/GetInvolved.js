@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../CSS/GetInvolved.module.css';
-import { Row, Button, Input } from 'antd';
+import { Row } from 'antd';
 import { MailOutlined } from '@ant-design/icons';
 import emailjs from 'emailjs-com';
 // import { useForm } from "react-hook-form";

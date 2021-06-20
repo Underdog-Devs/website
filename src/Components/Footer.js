@@ -40,9 +40,9 @@ export default function Footer() {
             </a>
         </Button>)
 
-    const defaultLink = function () {
-        window.location.href = 'https://www.google.com';
-    };
+    // const defaultLink = function () {
+    //     window.location.href = 'https://www.google.com';
+    // };
 
     return (
         <div className={styles.footer}>
