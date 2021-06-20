@@ -32,13 +32,12 @@
 }
 
 .linkItem:hover{
-  border: 1px solid rgb(245, 121, 20);
   color: rgb(245, 121, 20);
+  text-decoration: underline;
 }
 
 .linkItem:active{
-  background-color: rgb(245, 121, 20);
-  color: #e5e5e5;
+  text-decoration: none;
 }
 
 .linkItem:focus{

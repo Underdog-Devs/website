@@ -8,7 +8,7 @@ export default function Footer() {
     const Twitter = () => (
             <Button type="" shape="circle">
             <a href="https://twitter.com/UnderdogDevs" >
-                <FontAwesomeIcon icon={['fab', "twitter"]} />  
+                <FontAwesomeIcon icon={['fab', "twitter"]} />
             </a>
             </Button>)
 
@@ -18,21 +18,21 @@ export default function Footer() {
                 <FontAwesomeIcon icon={['fab', "youtube"]} />
             </a>
         </Button>)
-    
+
     const Slack = () => (
         <Button type="" shape="circle">
             <a href="http://underdog-devs.slack.com/">
                 <FontAwesomeIcon icon={['fab', "slack"]} />
             </a>
         </Button>)
-    
+
     const GitHub = () => (
         <Button type="" shape="circle">
             <a href="https://github.com/Underdog-Devs">
                 <FontAwesomeIcon icon={['fab', "github"]} />
             </a>
         </Button>)
-    
+
     const Google = () => (
         <Button type="" shape="circle">
             <a href="mailto:rickw@underdogdevs.org">
@@ -55,43 +55,44 @@ export default function Footer() {
 						<GitHub/>
 						<Google/>
 					</ul>
+                    <span className={styles.copyright}>&copy; 2021 Underdog Devs</span>
             </div>
-            <div className={styles.footerContainer}>
+            {/* <div className={styles.footerContainer}>
                 <div className={styles.footerContainer2}>
                     <h5>Mentors</h5>
-                    <button 
-                        type="button" 
+                    <button
+                        type="button"
                         class="ant-btn ant-btn-link block"
                         onClick={defaultLink}
                     >Become a mentor</button>
-                    <button 
-                        type="button" 
+                    <button
+                        type="button"
                         class="ant-btn ant-btn-link block"
                         onClick={defaultLink}
                     >See the mentees</button>
                 </div>
                 <div className={styles.footerContainer3}>
                     <h5>Mentees</h5>
-                    <button 
-                        type="button" 
+                    <button
+                        type="button"
                         class="ant-btn ant-btn-link block"
                         onClick={defaultLink}
                     >Become a mentee</button>
-                    <button 
-                        type="button" 
+                    <button
+                        type="button"
                         class="ant-btn ant-btn-link block"
                         onClick={defaultLink}
                     >See the mentors</button>
                 </div>
                 <div className={styles.footerContainer4}>
                     <h5>Organization</h5>
-                    <button 
-                        type="button" 
+                    <button
+                        type="button"
                         class="ant-btn ant-btn-link block"
                         onClick={defaultLink}
                     >Get involved</button>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

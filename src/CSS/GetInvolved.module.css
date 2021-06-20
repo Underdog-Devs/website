@@ -35,7 +35,7 @@
   background: white;
   padding: 5px;
   border-radius: 5px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .inputContainer {
@@ -43,8 +43,16 @@
 }
 
 .input {
-  width: 100%;
-  border-radius: 5px;
+  align-self: center;
+  width: 97%;
+  padding: .3em 1em;
+  height: 100%;
+  font-size: 1rem;
+  border: 1px solid rgb(211, 204, 204);
+}
+
+.input:focus {
+  outline: 1px solid rgb(211, 204, 204);
 }
 .buttonContainer {
   width: 25%;
@@ -52,7 +60,8 @@
 
 .button {
   width: 100%;
-  border-radius: 5px;
+  height: 100%;
+  padding: .3em;
 }
 
 .error {
