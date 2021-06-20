@@ -12,17 +12,6 @@ const GetInvolved = () => {
     const { value } = e.target;
     setEmail(value);
   };
-  // const handleClick = () => {
-  //   console.log(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i.test(email));
-  //   let emailValid = /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i.test(email);
-  //   if (!emailValid) {
-  //     setErrors('is invalid');
-  //     return;
-  //   }
-  //   console.log('success');
-  //   setEmail('');
-  //   setErrors('');
-  // };
 
   const sendEmail = (e) => {
     e.preventDefault();
