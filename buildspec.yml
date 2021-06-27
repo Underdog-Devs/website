@@ -12,4 +12,6 @@ phases:
         - npm run-script build
 artifacts:
   files:
-    - '/build/**/*'
+    - build/**/*
+    - package.json
+    - node_modules/**/*
