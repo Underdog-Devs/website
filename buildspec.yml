@@ -11,6 +11,6 @@ phases:
       commands:
         - npm run-script build
 artifacts:
-  base-directory: ./build
+  base-directory: 'build'
   files:
     - '**/*'
