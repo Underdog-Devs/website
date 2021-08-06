@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from '../CSS/GetInvolved.module.css';
-import { Row, Button, Input } from 'antd';
+import { Row } from 'antd';
 import { MailOutlined } from '@ant-design/icons';
+import emailjs from 'emailjs-com';
 // import { useForm } from "react-hook-form";
 import { useState } from 'react';
 const GetInvolved = () => {
@@ -9,22 +10,27 @@ const GetInvolved = () => {
   const [errors, setErrors] = useState('');
   const handleEmailChange = e => {
     const { value } = e.target;
-    console.log(value);
     setEmail(value);
   };
-  const handleClick = () => {
-    console.log(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i.test(email));
+
+  const sendEmail = (e) => {
+    e.preventDefault();
     let emailValid = /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i.test(email);
-    if (!emailValid) {
-      setErrors('is invalid');
-      return;
+    if (emailValid) {
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
     }
-    console.log('success');
     setEmail('');
     setErrors('');
-  };
+  }
+
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='get-involved'>
       <Row className={styles.header}>
         <h2>Want to Get Involved?</h2>
       </Row>
@@ -34,9 +40,10 @@ const GetInvolved = () => {
           more information.
         </p>
       </Row>
-      <div className={styles.actionContainer}>
+      <form onSubmit={sendEmail} className={styles.actionContainer}>
         <div className={styles.inputContainer}>
-          <Input
+          <input
+            name='email'
             className={styles.input}
             style={{ fontFamily: 'Open Sans, sans-serif' }}
             placeholder={'Your Email'}
@@ -47,9 +54,9 @@ const GetInvolved = () => {
           <p className={styles.error}>{errors} </p>
         </div>
         <div className={styles.buttonContainer}>
-          <Button
+          <button
+            type='submit'
             className={styles.button}
-            onClick={handleClick}
             style={{
               background: '#1565D8',
               color: 'white',
@@ -57,9 +64,9 @@ const GetInvolved = () => {
             }}
           >
             Submit
-          </Button>
+          </button>
         </div>
-      </div>
+      </form>
     </div>
   );
 };

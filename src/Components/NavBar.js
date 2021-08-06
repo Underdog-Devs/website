@@ -35,7 +35,7 @@ const NavBar = () => {
         </Row>
       </Col>
       <Col className={styles.buttonContainer} span={4}>
-        <Button className={styles.getInvolvedButton} type={'primary'} ghost>Get
+        <Button className={styles.getInvolvedButton} onClick={() => scrollTo('get-involved')} type={'primary'} ghost>Get
           Involved</Button>
       </Col>
       <Col className={styles.menuContainer} span={14} align={'end'}>

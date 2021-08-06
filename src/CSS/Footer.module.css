@@ -3,7 +3,8 @@
   font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   right: 0;
   bottom: 0;
   left: 0;
@@ -14,6 +15,7 @@
   font-weight: normal;
   font-size: 22px;
   line-height: 30px;
+  height: 300px;
 }
 .footer h5,
 .footer button {
@@ -34,7 +36,9 @@
 }
 
 .footerContainer1 {
-  margin-left: 5%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footerContainer {
@@ -67,10 +71,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 0;
+  padding: 1em;
   margin: 0;
-  padding-top: 1vh;
   list-style-type: none;
+  height: 200px;
 }
 
 .icon {
@@ -83,6 +87,11 @@
 .icon:hover {
   box-shadow: 0 14px 28px rgba(22, 102, 67, 0.336),
     0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+.copyright {
+  font-size: 1rem;
 }
 /* end of footer styles */
 
@@ -105,4 +114,5 @@
   .footer .footerContainer1 {
     align-self: center;
   }
+
 }
