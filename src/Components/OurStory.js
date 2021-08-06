@@ -49,7 +49,7 @@ export default function OurStory() {
           <a target="_blank" href="https://github.com/Underdog-Devs">
             <AiFillGithub size="35px" color="black" />
           </a>
-          <a target="_blank" href="mailto: questions@underdogdevs.org">
+          <a target="_blank" href="mailto: underdogdevsteam@gmail.com">
             <AiFillMail size="35px" color="black" />
           </a>
         </div>
