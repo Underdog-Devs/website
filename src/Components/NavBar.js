@@ -20,11 +20,7 @@ const NavBar = () => {
         <img src={logo} alt={'logo'} className={styles.logo} />
       </Col>
       <Col className={styles.linksContainer}>
-        <Row
-          className={styles.linksRow}
-          justify={'space-around'}
-          align={'center'}
-        >
+        <Row className={styles.linksRow} justify={'end'} align={'center'}>
           <Col className={styles.linkItem}>
             <p className={styles.navP} onClick={() => scrollTo('our-story')}>
               Home
@@ -40,18 +36,20 @@ const NavBar = () => {
               Mentors
             </p>
           </Col>
+
+          <Col>
+            <Button
+              className={styles.getInvolvedButton}
+              onClick={() => scrollTo('get-involved')}
+              type={'primary'}
+              ghost
+            >
+              Get Involved
+            </Button>
+          </Col>
         </Row>
       </Col>
-      <Col className={styles.buttonContainer} span={4}>
-        <Button
-          className={styles.getInvolvedButton}
-          onClick={() => scrollTo('get-involved')}
-          type={'primary'}
-          ghost
-        >
-          Get Involved
-        </Button>
-      </Col>
+
       <Col className={styles.menuContainer} span={14} align={'end'}>
         <Button className={styles.menuButton} icon={<MenuOutlined />} />
       </Col>

@@ -1,8 +1,4 @@
 .landingPage {
-  background-image: url('../Assets/Code_on_screen.jpg');
-  background-size: contain;
-  background-origin: inherit;
-  background-repeat: no-repeat;
   width: 100vw;
   min-height: 90vh;
 }
