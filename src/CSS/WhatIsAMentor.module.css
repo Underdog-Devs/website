@@ -1,4 +1,5 @@
-.mentor{
+.mentor {
+  padding-top: 15vh;
   padding: 10vw;
   display: flex;
   flex-direction: row-reverse;
@@ -8,11 +9,12 @@
   text-align: center;
   background: rgba(45, 117, 220, 0.3);
 }
-.mentorAbove{
-  margin: 0 auto; 
+.mentorAbove {
+  padding-top: 10vh;
+  margin: 0 auto;
 }
 
-.mentorAbove p{
+.mentorAbove p {
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: normal;
@@ -20,10 +22,10 @@
   line-height: 32px;
   /* or 145% */
   text-align: center;
-  color: #5A7184;
+  color: #5a7184;
 }
 
-.mentorAbove h3{
+.mentorAbove h3 {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
@@ -33,33 +35,33 @@
 
   letter-spacing: 0.2px;
 
-  color: #183B56;
+  color: #183b56;
 }
-.mentorHero{
+.mentorHero {
   width: 80%;
   margin: 0 auto;
 }
 
-.mentorHeroImage{
+.mentorHeroImage {
   width: 100%;
   border-radius: 5px;
 }
 
 @media screen and (max-width: 480px) {
-  .mentor{
+  .mentor {
     flex-direction: column;
   }
-  .mentorAbove h3{
+  .mentorAbove h3 {
     font-size: 32px;
     line-height: 40px;
   }
-  .mentorHero{
+  .mentorHero {
     width: 99%;
   }
-  .mentorAbove p{
-  font-size: 18px;
-  line-height: 25px;
-  /* or 139% */
-  color: #5A7184
+  .mentorAbove p {
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
+    color: #5a7184;
   }
-}  
+}

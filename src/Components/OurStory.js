@@ -24,32 +24,51 @@ export default function OurStory() {
         <div className={styles.linkscontainer}>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.youtube.com/channel/UC8rwCavxrhcfZTYPnR_VdSg"
           >
             <AiFillYoutube size="35px" color="black" />
           </a>
-          <a href="https://twitter.com/UnderdogDevs" target="_blank">
+          <a
+            href="https://twitter.com/UnderdogDevs"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillTwitterCircle size="35px" color="black" />
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/underdog-devs-6b9482205/"
           >
             <AiFillLinkedin size="35px" color="black" />
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.facebook.com/Underdog-Devs-104482305007944"
           >
             <AiFillFacebook size="35px" color="black" />
           </a>
-          <a target="_blank" href="https://www.instagram.com/underdog_devs/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/underdog_devs/"
+          >
             <AiFillInstagram size="35px" color="black" />
           </a>
-          <a target="_blank" href="https://github.com/Underdog-Devs">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/Underdog-Devs"
+          >
             <AiFillGithub size="35px" color="black" />
           </a>
-          <a target="_blank" href="mailto: underdogdevsteam@gmail.com">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="mailto: underdogdevsteam@gmail.com"
+          >
             <AiFillMail size="35px" color="black" />
           </a>
         </div>

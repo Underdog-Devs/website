@@ -1,13 +1,14 @@
 .landingPage {
-  margin-top: 10vw;
-  width: 100%;
+  background-image: url('../Assets/Code_on_screen.jpg');
+  background-size: contain;
+  background-origin: inherit;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 90vh;
 }
 
-
-
-
 @media screen and (max-width: 480px) {
-  .landingPage{
-      margin-top: 15vw;
+  .landingPage {
+    margin-top: 15vw;
   }
-} 
+}
