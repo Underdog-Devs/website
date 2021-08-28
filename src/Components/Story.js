@@ -11,7 +11,7 @@ import {
 
 const Story = () => {
   return (
-    <div className={styles.storyContainer}>
+    <div className={styles.storyContainer} id="our-story">
       <h1 className={styles.storyH1}>
         We are a group of software developers supporting the formerly
         incarcerated in their transition into the software industry.
