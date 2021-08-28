@@ -27,7 +27,8 @@
   cursor: pointer;
   font-weight: bold;
   font-size: 1rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Railway', 'Open Sans', sans-serif;
+  text-shadow: 2px 2px 4px #000;
   padding: 5px;
 }
 
