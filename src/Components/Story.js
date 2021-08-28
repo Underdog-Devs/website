@@ -18,7 +18,7 @@ const Story = () => {
       </h1>
       <div className={styles.linkscontainer}>
         <a
-          className="socialLink"
+          className={styles.socialLink}
           target="_blank"
           rel="noreferrer"
           href="https://www.youtube.com/channel/UC8rwCavxrhcfZTYPnR_VdSg"
@@ -26,7 +26,7 @@ const Story = () => {
           <AiFillYoutube size="35px" color="#fff" />
         </a>
         <a
-          className="socialLink"
+          className={styles.socialLink}
           href="https://twitter.com/UnderdogDevs"
           target="_blank"
           rel="noreferrer"
@@ -34,7 +34,7 @@ const Story = () => {
           <AiFillTwitterCircle size="35px" color="#fff" />
         </a>
         <a
-          className="socialLink"
+          className={styles.socialLink}
           target="_blank"
           rel="noreferrer"
           href="https://www.linkedin.com/in/underdog-devs-6b9482205/"
@@ -42,7 +42,7 @@ const Story = () => {
           <AiFillLinkedin size="35px" color="#fff" />
         </a>
         <a
-          className="socialLink"
+          className={styles.socialLink}
           target="_blank"
           rel="noreferrer"
           href="https://www.facebook.com/Underdog-Devs-104482305007944"
@@ -50,7 +50,7 @@ const Story = () => {
           <AiFillFacebook size="35px" color="#fff" />
         </a>
         <a
-          className="socialLink"
+          className={styles.socialLink}
           target="_blank"
           rel="noreferrer"
           href="https://www.instagram.com/underdog_devs/"
@@ -58,7 +58,7 @@ const Story = () => {
           <AiFillInstagram size="35px" color="#fff" />
         </a>
         <a
-          className="socialLink"
+          className={styles.socialLink}
           target="_blank"
           rel="noreferrer"
           href="https://github.com/Underdog-Devs"
@@ -66,7 +66,7 @@ const Story = () => {
           <AiFillGithub size="35px" color="#fff" />
         </a>
         <a
-          className="socialLink"
+          className={styles.socialLink}
           target="_blank"
           rel="noreferrer"
           href="mailto: underdogdevsteam@gmail.com"

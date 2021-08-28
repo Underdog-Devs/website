@@ -29,6 +29,16 @@
 .linkscontainer a {
   margin: 1.5rem 1rem;
 }
-.socialLink :hover {
-  box-shadow: 3px 3px 6px #000;
+.socialLink {
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+@media all and (max-width: 768px) {
+  .storyH1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .linkscontainer a {
+    margin: 1.5rem 0.5rem;
+  }
 }
