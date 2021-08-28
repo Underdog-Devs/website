@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Col, Row } from 'antd';
-import logo from '../Assets/UD_Logo.jpg';
+import logo from '../Assets/UDD_logo.svg';
 import styles from '../CSS/NavBar.module.css';
 import { MenuOutlined } from '@ant-design/icons';
 
