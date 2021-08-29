@@ -1,0 +1,14 @@
+.logo {
+  display: flex;
+  justify-content: left;
+  color: rgb(245, 121, 20);
+  font-family: monospace;
+  font-size: 1.2rem;
+  z-index: 9999;
+}
+.logoImg {
+  width: 75px;
+}
+.logoText {
+  margin: 1.8rem 0;
+}

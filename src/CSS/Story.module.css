@@ -1,5 +1,6 @@
 .storyContainer {
-  background-image: url('../Assets/Code_on_screen.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url('../Assets/Code_on_screen.jpg');
   background-size: cover;
   background-origin: inherit;
   background-repeat: no-repeat;

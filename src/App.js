@@ -1,6 +1,6 @@
 import LandingPage from './Pages/LandingPage';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
-import NavBar from './Components/NavBar';
+import NavBar from './Components/Navigation/index';
 import styles from './CSS/App.module.css';
 import Footer from './Components/Footer';
 import { library } from '@fortawesome/fontawesome-svg-core';
