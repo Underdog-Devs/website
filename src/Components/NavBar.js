@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Col, Row } from 'antd';
-import logo from '../Assets/UDD_logo.svg';
+import logo from '../Assets/UD_Logo.webp';
 import styles from '../CSS/NavBar.module.css';
 import { MenuOutlined } from '@ant-design/icons';
 
@@ -18,6 +18,7 @@ const NavBar = () => {
     <Row className={styles.navContainer} align={'middle'}>
       <Col className={styles.logoContainer} align={'start'}>
         <img src={logo} alt={'logo'} className={styles.logo} />
+        <p className={styles.logoText}>Underdog Devs</p>
       </Col>
       <Col className={styles.linksContainer}>
         <Row className={styles.linksRow} justify={'end'} align={'center'}>
