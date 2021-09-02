@@ -93,6 +93,7 @@ function Stats() {
               >
                 https://www.ojp.gov/ncjrs/virtual-library/abstracts/poverty-state-capital-and-recidivism-among-women-offenders
               </a>
+              )
             </p>
           </Col>
         </Row>
