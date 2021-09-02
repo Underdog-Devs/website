@@ -38,6 +38,7 @@
   font-family: 'Railway', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
     Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgb(245, 121, 20);
+  font-size: 0.7rem;
   font-weight: 500;
   text-shadow: 2px 2px 4px #000;
 }
