@@ -104,11 +104,10 @@ function Stats() {
               We provide a stipend to a select group of our mentees who were
               earnest in their studies yet hindered by their 40 hour work week.
               Our stipend allows them to focus on developing their skills and
-              leveraging the economic mobility that coding affords. These
-              selected mentees pair program every day of the week with an
-              industry professional. In addition they’re given coding
-              assessments to gauge progress and surrounded with supporting UD
-              members.
+              leverage the economic mobility that coding affords. These selected
+              mentees pair program every day of the week with an industry
+              professional. In addition they’re given coding assessments to
+              gauge progress and surrounded with supporting UD members.
             </p>
           </Col>
         </Row>
