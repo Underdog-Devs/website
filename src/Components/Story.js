@@ -13,9 +13,11 @@ const Story = () => {
   return (
     <div className={styles.storyContainer} id="our-story">
       <h1 className={styles.storyH1}>
-        We are a group of software developers supporting the formerly
-        incarcerated in their transition into the software industry.
+        We are a community of software engineers supporting aspiring developers
+        who come from disadvantaged backgrounds or who are formerly
+        incarcerated.
       </h1>
+
       <div className={styles.linkscontainer}>
         <a
           className={styles.socialLink}
@@ -74,6 +76,8 @@ const Story = () => {
           <AiFillMail size="35px" color="#fff" />
         </a>
       </div>
+      <p className={styles.storyp}>Founded September 2020</p>
+      <p className={styles.storyp1}>Currently depend 100% on volunteers</p>
     </div>
   );
 };
