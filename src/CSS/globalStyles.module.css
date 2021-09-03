@@ -11,12 +11,12 @@
   font-size: 56px;
   line-height: 68px;
   letter-spacing: 0.2px;
-  padding-bottom: 1.5rem;
+  padding: 1.5rem 0;
 }
 .headerTextmed {
   font-size: 32px;
   line-height: 40px;
-  padding-bottom: 1.5rem;
+  padding: 1.5rem 0;
 }
 @media screen and (max-width: 600px) {
   .normalP {
