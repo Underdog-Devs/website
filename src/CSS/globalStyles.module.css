@@ -1,0 +1,31 @@
+.normalP {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.headerText {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 68px;
+  letter-spacing: 0.2px;
+  padding-bottom: 1.5rem;
+}
+.headerTextmed {
+  font-size: 32px;
+  line-height: 40px;
+  padding-bottom: 1.5rem;
+}
+@media screen and (max-width: 600px) {
+  .normalP {
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
+  }
+  .headerText {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}

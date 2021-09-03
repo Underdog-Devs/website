@@ -1,0 +1,9 @@
+.projectUD {
+  padding: 10vw;
+}
+
+@media screen and (max-width: 600px) {
+  .projectUD {
+    text-align: center;
+  }
+}

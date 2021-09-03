@@ -1,13 +1,16 @@
 import React from 'react';
 import meet from '../Assets/meeting.svg';
 import styles from '../CSS/WhatIsAMentor.module.css';
+import globalStyles from '../CSS/globalStyles.module.css';
 
 export default function WhatIsAMentor() {
   return (
     <div className={styles.mentor} id="mentor">
       {/* hero above */}
-      <div className={styles.mentorAbove}>
-        <h3 className={styles.mentorHeader}>What Is A Mentor?</h3>
+      <div className={`${styles.mentorAbove} ${globalStyles.normalP}`}>
+        <h3 className={`${styles.mentorHeader} ${globalStyles.headerText}`}>
+          What Is A Mentor?
+        </h3>
         <p>
           Our mentors are industry experts. They are experienced Software
           Engineers from all over the industry who are committed to guiding the

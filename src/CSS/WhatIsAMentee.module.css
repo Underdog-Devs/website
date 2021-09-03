@@ -1,65 +1,59 @@
-.mentee{
+.mentee {
   padding: 10vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
   margin: 0 auto;
-  text-align: center;
 }
-.menteeAbove{
-  margin: 0 auto; 
+.menteeAbove {
+  margin: 0 auto;
 }
-
-.menteeAbove p{
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 32px;
-  /* or 145% */
-  text-align: center;
-  color: #5A7184;
+.menteeHeader {
+  color: #183b56;
+}
+.menteeAbove p {
+  color: #5a7184;
 }
 
-.menteeAbove h3{
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 56px;
-  line-height: 68px;
-  /* identical to box height, or 121% */
-
-  letter-spacing: 0.2px;
-
-  color: #183B56;
+.menteeAbove h3 {
+  color: #183b56;
 }
-.menteeHero{
+.menteeHero {
   width: 80%;
   margin: 0 auto;
 }
 
-.menteeHeroImage{
+.menteeHeroImage {
   width: 100%;
   border-radius: 5px;
 }
 
-@media screen and (max-width: 480px) {
-  .mentee{
+@media screen and (max-width: 600px) {
+  .mentee {
     flex-direction: column;
+    text-align: center;
   }
-  .menteeAbove h3{
+  .menteeAbove h3 {
     font-size: 32px;
     line-height: 40px;
   }
-  .menteeHero{
+  .menteeHero {
     width: 99%;
   }
-  .menteeAbove p{
-  font-size: 18px;
-  line-height: 25px;
-  /* or 139% */
-
-  color: #5A7184
+  .menteeAbove p {
+    color: #5a7184;
+    text-align: center;
   }
-}  
+}
+@media screen and (min-width: 601px) {
+  .menteeHero {
+    padding-left: 2rem;
+    min-width: 175px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .menteeHero {
+    min-width: 300px;
+  }
+}
