@@ -14,6 +14,9 @@
 .info {
   color: rgb(211, 204, 204);
 }
+.info p {
+  padding-bottom: 2rem;
+}
 .actionContainer {
   width: 60%;
   margin: 0 auto;
@@ -73,6 +76,8 @@
   }
 
   .info p {
+    text-align: center;
+
     font-size: 1rem;
   }
 }

@@ -12,6 +12,12 @@
 .statsContainer p a {
   font-size: 0.9rem;
 }
+
 .statItem {
   flex: 1;
+}
+.statsButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }

@@ -1,59 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '../CSS/Stats.module.css';
-import { Col, Row, List } from 'antd';
+import { Col, Row } from 'antd';
 import globalStyles from '../CSS/globalStyles.module.css';
+import HiddenStats from './HiddenStats';
 
 function Stats() {
+  const [isHidden, setisHidden] = useState(false);
+
   return (
     <div id="statsOverlay" className={styles.stats}>
       <div className={`${styles.statsContainer} ${globalStyles.normalP}`}>
         <Row>
           <Col className={styles.statItem}>
             <h2 className={globalStyles.headerTextmed}>Recidivism</h2>
-            <p>
-              Incarceration rates in the U.S. began increasing dramatically in
-              the 1990s. The U.S. has the highest prison population of any
-              country, comprising 25% of the world’s prisoners.{' '}
-            </p>
-            <p>
-              <a
-                href="https://www.prisonpolicy.org/research/recidivism_and_reentry/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                recidivism and reentry
-              </a>
-            </p>
-            <p>
-              Out of a sample of 401,288 prisoners state prisoners released in
-              2005:
-            </p>
-            <p>
-              <List bordered>
-                <List.Item>
-                  68% of released prisoners were arrested within 3 years.
-                </List.Item>
-                <List.Item>
-                  79% of released prisoners were arrested within 6 years.
-                </List.Item>
-                <List.Item>
-                  83% of released prisoners were arrested within 9 years.
-                </List.Item>
-              </List>
-            </p>
-            <p>
-              Using this study as a basepoint, one could state that the national
-              recidivism rate is 83%.
-            </p>
-            <p>
-              <a
-                href="https://prisoninsight.com/recidivism-the-ultimate-guide/#tab-con-9"
-                rel="noreferrer"
-                target="_blank"
-              >
-                recidivism the ultimate guide
-              </a>
-            </p>
+            {isHidden ? <HiddenStats /> : null}
             <p>
               According to data from the U.S. Bureau of Justice Statistics
               (BJS), 67.8% of released state prisoners were arrested for a new
@@ -64,6 +24,14 @@ function Stats() {
               Reducing recidivism not only protects society at large, but also
               improves the life quality of individual ex-prisoners.
             </p>
+            <div className={styles.statsButtonContainer}>
+              <button
+                className="btn btn-secondary"
+                onClick={() => setisHidden(!isHidden)}
+              >
+                More Statistics
+              </button>
+            </div>
           </Col>
           <Col className={styles.statItem}>
             <h2 className={globalStyles.headerTextmed}>
