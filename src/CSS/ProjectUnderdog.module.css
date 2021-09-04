@@ -1,9 +1,24 @@
 .projectUD {
+  display: flex;
+
   padding: 10vw;
 }
+.heroAbove {
+  display: flex;
+}
+.heroBelow {
+  display: flex;
 
+  text-align: center;
+}
+.heroBelow img {
+  width: 25vw;
+}
 @media screen and (max-width: 600px) {
   .projectUD {
-    text-align: center;
+    flex-wrap: wrap;
+  }
+  .heroBelow img {
+    width: 20vw;
   }
 }
