@@ -29,7 +29,7 @@ function Stats() {
                 className="btn btn-secondary"
                 onClick={() => setisHidden(!isHidden)}
               >
-                More Statistics
+                {isHidden ? 'Less' : 'More'} Statistics
               </button>
             </div>
           </Col>
