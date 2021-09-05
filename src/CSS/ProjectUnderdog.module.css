@@ -18,7 +18,11 @@
   .projectUD {
     flex-wrap: wrap;
   }
+  heroBelow {
+    align-items: center;
+  }
   .heroBelow img {
+    margin-top: 1rem;
     width: 60vw;
   }
 }
