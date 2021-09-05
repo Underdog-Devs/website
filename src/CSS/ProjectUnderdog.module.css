@@ -14,15 +14,15 @@
 .heroBelow img {
   width: 25vw;
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 900px) {
   .projectUD {
     flex-wrap: wrap;
   }
-  heroBelow {
-    align-items: center;
-  }
+
   .heroBelow img {
     margin-top: 1rem;
     width: 60vw;
+    margin-left: 14%;
   }
 }
