@@ -26,6 +26,7 @@ export default function ProjectUnderdog() {
           <img
             src={underdog_hero}
             alt="Cartoon Underdog flying to the rescue"
+            position="center"
           />
         </div>
       </div>
