@@ -47,7 +47,7 @@ function Stats() {
                 rel="noreferrer"
                 target="_blank"
               >
-                employment recidivism
+                employment recidivism on ebpsociety.org
               </a>
             </p>
             <p>
@@ -61,7 +61,8 @@ function Stats() {
                 rel="noreferrer"
                 target="_blank"
               >
-                poverty state capital and recidivism among women offenders
+                poverty state capital and recidivism among women offenders on
+                ojp.gov
               </a>
             </p>
           </Col>

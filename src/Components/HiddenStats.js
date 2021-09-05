@@ -15,7 +15,7 @@ export default function HiddenStats() {
           rel="noreferrer"
           target="_blank"
         >
-          recidivism and reentry
+          recidivism and reentry on prisonpolicy.org
         </a>
       </p>
       <p>
@@ -44,7 +44,7 @@ export default function HiddenStats() {
           rel="noreferrer"
           target="_blank"
         >
-          recidivism the ultimate guide
+          recidivism the ultimate guide on prisoninsight.com
         </a>
       </p>
     </div>
