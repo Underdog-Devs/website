@@ -3,7 +3,7 @@ import styles from '../CSS/Stats.module.css';
 import { Col, Row } from 'antd';
 import globalStyles from '../CSS/globalStyles.module.css';
 import HiddenStats from './HiddenStats';
-
+import { MdExpandMore, MdExpandLess } from 'react-icons/md';
 function Stats() {
   const [isHidden, setisHidden] = useState(false);
 
@@ -29,7 +29,15 @@ function Stats() {
                 className={styles.showOrHideStats}
                 onClick={() => setisHidden(!isHidden)}
               >
-                {isHidden ? 'Less	^' : 'More ∨'}
+                {isHidden ? (
+                  <p>
+                    Less <MdExpandLess />
+                  </p>
+                ) : (
+                  <p>
+                    More <MdExpandMore />
+                  </p>
+                )}
               </span>
             </div>
           </Col>
