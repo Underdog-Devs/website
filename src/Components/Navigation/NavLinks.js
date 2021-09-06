@@ -40,7 +40,16 @@ export const NavLinks = ({ isMobile, setOpen }) => {
           Mentors
         </a>
       </li>
-
+      <li>
+        <a
+          href="https://www.paypal.com/paypalme/underdogdevs"
+          className={styles.navLink}
+          rel="noreferrer"
+          target="_blank"
+        >
+          Donate
+        </a>
+      </li>
       <li>
         <Button
           className={styles.getInvolvedButton}

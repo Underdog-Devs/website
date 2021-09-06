@@ -1,7 +1,7 @@
 .container {
   width: 100%;
 
-  background: #1565d8;
+  background: rgb(228, 222, 222);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +12,7 @@
   color: #183b56;
 }
 .info {
-  color: rgb(211, 204, 204);
+  color: rgb(90, 74, 74);
 }
 .info p {
   padding-bottom: 2rem;
@@ -56,7 +56,10 @@
 .error {
   color: red;
 }
-
+.donate {
+  margin: 1.5rem;
+  font-weight: bold;
+}
 @media (max-width: 768px) {
   .header {
     text-align: center;
