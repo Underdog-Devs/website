@@ -1,0 +1,94 @@
+:root {
+  --orange: rgb(245, 121, 20);
+}
+
+.navBar {
+  background: rgba(33, 45, 33, 0.65);
+  width: 100vw;
+  height: 75px;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+}
+.hamburger {
+  color: white;
+  position: absolute;
+  right: 5%;
+  cursor: pointer;
+  border-radius: 100%;
+  padding: 0.3em;
+}
+.hamburger:active {
+  background-color: lighten(#181818, 5%);
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+nav ol ul {
+  margin: 0.7rem;
+}
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.1rem;
+}
+.navLink:hover {
+  /* text-decoration: underline;
+  text-decoration-color: var(--orange);
+  text-decoration-thickness: 2px;
+  text-underline-position: under; */
+  color: var(--orange);
+}
+
+.mobileNavigation {
+  display: none;
+}
+.getInvolvedButton {
+  margin: 0 0 0 1rem;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+
+  color: #fff !important;
+  border-color: #fff !important;
+}
+.getInvolvedButton:hover {
+  color: var(--orange) !important;
+  border-color: var(--orange) !important;
+}
+
+@media (min-width: 900px) {
+  .navLink {
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 900px) {
+  .navigation {
+    display: none;
+  }
+  .mobileNavigation {
+    display: flex;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 100vh;
+    width: 80vw;
+    top: 60px;
+    right: 0;
+    padding: 1em;
+    background-color: #181818;
+    opacity: 0.95;
+  }
+}

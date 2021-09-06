@@ -1,0 +1,28 @@
+.statsContainer {
+  justify-content: center;
+
+  padding: 2rem;
+  width: 100vw;
+
+  background-color: rgb(228, 222, 222);
+
+  line-height: 1.6rem;
+}
+
+.statsContainer p a {
+  font-size: 0.9rem;
+}
+
+.statItem {
+  flex: 1;
+  padding-right: 2rem;
+}
+.statsButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.showOrHideStats {
+  text-decoration: underline;
+  color: rgb(24, 144, 255);
+}

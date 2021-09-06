@@ -1,11 +1,23 @@
-@import "./reset.css";
+@import './reset.css';
 
-.app {
-  text-align: center;
-}
 .appLogo {
   height: 40vmin;
   pointer-events: none;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+body {
+  font-family: 'Source Sans Pro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p + p {
+  margin-top: 1.5rem;
+}
+a {
+  text-decoration: underline;
 }
 
 @media (prefers-reduced-motion: no-preference) {

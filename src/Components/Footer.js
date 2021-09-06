@@ -1,63 +1,69 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import styles from '../CSS/Footer.module.css'
-import { Button} from 'antd';
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import styles from '../CSS/Footer.module.css';
+import { Button } from 'antd';
 import 'antd/dist/antd.css';
 
 export default function Footer() {
-    const Twitter = () => (
-            <Button type="" shape="circle">
-            <a href="https://twitter.com/UnderdogDevs" >
-                <FontAwesomeIcon icon={['fab', "twitter"]} />
-            </a>
-            </Button>)
+  const Twitter = () => (
+    <Button type="" shape="circle">
+      <a href="https://twitter.com/UnderdogDevs">
+        <FontAwesomeIcon icon={['fab', 'twitter']} />
+      </a>
+    </Button>
+  );
 
-    const Youtube = () => (
-        <Button type="" shape="circle">
-            <a href="https://youtube.com/channel/UC8rwCavxrhcfZTYPnR_VdSg" >
-                <FontAwesomeIcon icon={['fab', "youtube"]} />
-            </a>
-        </Button>)
+  const Youtube = () => (
+    <Button type="" shape="circle">
+      <a href="https://youtube.com/channel/UC8rwCavxrhcfZTYPnR_VdSg">
+        <FontAwesomeIcon icon={['fab', 'youtube']} />
+      </a>
+    </Button>
+  );
 
-    const Slack = () => (
-        <Button type="" shape="circle">
-            <a href="http://underdog-devs.slack.com/">
-                <FontAwesomeIcon icon={['fab', "slack"]} />
-            </a>
-        </Button>)
+  // const Slack = () => (
+  //     <Button type="" shape="circle">
+  //         <a href="http://underdog-devs.slack.com/">
+  //             <FontAwesomeIcon icon={['fab', "slack"]} />
+  //         </a>
+  //     </Button>)
 
-    const GitHub = () => (
-        <Button type="" shape="circle">
-            <a href="https://github.com/Underdog-Devs">
-                <FontAwesomeIcon icon={['fab', "github"]} />
-            </a>
-        </Button>)
+  const GitHub = () => (
+    <Button type="" shape="circle">
+      <a href="https://github.com/Underdog-Devs">
+        <FontAwesomeIcon icon={['fab', 'github']} />
+      </a>
+    </Button>
+  );
 
-    const Google = () => (
-        <Button type="" shape="circle">
-            <a href="mailto:rickw@underdogdevs.org">
-                <FontAwesomeIcon icon={['fab', "google"]} />
-            </a>
-        </Button>)
+  const Google = () => (
+    <Button type="" shape="circle">
+      <a href="mailto:rickw@underdogdevs.org">
+        <FontAwesomeIcon icon={['fab', 'google']} />
+      </a>
+    </Button>
+  );
 
-    // const defaultLink = function () {
-    //     window.location.href = 'https://www.google.com';
-    // };
+  // const defaultLink = function () {
+  //     window.location.href = 'https://www.google.com';
+  // };
 
-    return (
-        <div className={styles.footer}>
-            <div className={styles.footerContainer1}>
-                <h5>Contact us on <strong>social media</strong></h5>
-                    <ul className={styles.icons}>
-                        <Twitter/>
-                        <Youtube/>
-                        <Slack/>
-						<GitHub/>
-						<Google/>
-					</ul>
-                    <span className={styles.copyright}>&copy; 2021 Underdog Devs</span>
-            </div>
-            {/* <div className={styles.footerContainer}>
+  return (
+    <div className={styles.footer}>
+      <div className={styles.footerContainer1}>
+        <h5>
+          Contact us on <strong>social media</strong>
+        </h5>
+        <ul className={styles.icons}>
+          <Twitter />
+          <Youtube />
+          {/* <Slack /> */}
+          <GitHub />
+          <Google />
+        </ul>
+        <span className={styles.copyright}>&copy; 2021 Underdog Devs</span>
+      </div>
+      {/* <div className={styles.footerContainer}>
                 <div className={styles.footerContainer2}>
                     <h5>Mentors</h5>
                     <button
@@ -93,6 +99,6 @@ export default function Footer() {
                     >Get involved</button>
                 </div>
             </div> */}
-        </div>
-    )
+    </div>
+  );
 }

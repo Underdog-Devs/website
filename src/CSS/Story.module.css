@@ -1,0 +1,61 @@
+.storyContainer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url('../Assets/Code_on_screen.jpg');
+  background-size: cover;
+  background-origin: inherit;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 85vh;
+  align-items: center;
+
+  justify-content: center;
+}
+.storyH1 {
+  width: 80vw;
+  font-size: 2.5rem;
+  font-weight: 700;
+
+  color: rgb(250, 250, 250);
+  justify-content: center;
+  text-align: center;
+  text-shadow: 4px 4px 8px #000;
+}
+.linkscontainer {
+  display: flex;
+  margin-top: 1.5rem;
+  width: 80vw;
+  justify-content: center;
+}
+.linkscontainer a {
+  margin: 1.5rem 1rem;
+}
+.socialLink {
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+.storyp {
+  margin: 1.5rem;
+
+  color: rgb(245, 121, 20);
+
+  font-weight: 500;
+  text-shadow: 2px 2px 4px #000;
+}
+.storyp1 {
+  margin: 1.5rem;
+
+  color: rgb(245, 121, 20);
+  font-weight: 500;
+  text-shadow: 2px 2px 4px #000;
+}
+
+@media all and (max-width: 768px) {
+  .storyH1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .linkscontainer a {
+    margin: 1.5rem 0.5rem;
+  }
+}

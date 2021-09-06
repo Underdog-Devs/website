@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../CSS/GetInvolved.module.css';
+import globalStyles from '../CSS/globalStyles.module.css';
 import { Row } from 'antd';
 import { MailOutlined } from '@ant-design/icons';
 import emailjs from 'emailjs-com';
@@ -13,28 +14,36 @@ const GetInvolved = () => {
     setEmail(value);
   };
 
-  const sendEmail = (e) => {
+  const sendEmail = e => {
     e.preventDefault();
     let emailValid = /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i.test(email);
     if (emailValid) {
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+      emailjs
+        .sendForm(
+          process.env.REACT_APP_SERVICE_ID,
+          process.env.REACT_APP_TEMPLATE_ID,
+          e.target,
+          process.env.REACT_APP_USER_ID
+        )
+        .then(
+          result => {
+            console.log(result.text);
+          },
+          error => {
+            console.log(error.text);
+          }
+        );
     }
     setEmail('');
     setErrors('');
-  }
-
+  };
 
   return (
-    <div className={styles.container} id='get-involved'>
-      <Row className={styles.header}>
+    <div className={styles.container} id="get-involved">
+      <Row className={`${globalStyles.headerText} ${styles.header}`}>
         <h2>Want to Get Involved?</h2>
       </Row>
-      <Row className={styles.info}>
+      <Row className={`${globalStyles.normalP} ${styles.info}`}>
         <p>
           Input your email into the form below to have a member contact you with
           more information.
@@ -43,7 +52,7 @@ const GetInvolved = () => {
       <form onSubmit={sendEmail} className={styles.actionContainer}>
         <div className={styles.inputContainer}>
           <input
-            name='email'
+            name="email"
             className={styles.input}
             style={{ fontFamily: 'Open Sans, sans-serif' }}
             placeholder={'Your Email'}
@@ -55,7 +64,7 @@ const GetInvolved = () => {
         </div>
         <div className={styles.buttonContainer}>
           <button
-            type='submit'
+            type="submit"
             className={styles.button}
             style={{
               background: '#1565D8',
@@ -67,6 +76,14 @@ const GetInvolved = () => {
           </button>
         </div>
       </form>
+      <a
+        href="https://www.paypal.com/paypalme/underdogdevs"
+        className={styles.donate}
+        rel="noreferrer"
+        target="_blank"
+      >
+        Donate Here
+      </a>
     </div>
   );
 };

@@ -1,65 +1,58 @@
-.mentor{
+.mentor {
+  padding-top: 15vh;
   padding: 10vw;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
   margin: 0 auto;
-  text-align: center;
-  background: rgba(45, 117, 220, 0.3);
-}
-.mentorAbove{
-  margin: 0 auto; 
-}
 
-.mentorAbove p{
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 32px;
-  /* or 145% */
-  text-align: center;
-  color: #5A7184;
+  background: rgb(228, 222, 222);
+}
+.mentorHeader {
+  color: #183b56;
+}
+.mentorAbove {
+  margin: 0 auto;
 }
 
-.mentorAbove h3{
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 56px;
-  line-height: 68px;
-  /* identical to box height, or 121% */
-
-  letter-spacing: 0.2px;
-
-  color: #183B56;
+.mentorAbove p {
+  color: #5a7184;
 }
-.mentorHero{
+
+.mentorAbove h3 {
+  color: #183b56;
+}
+.mentorHero {
   width: 80%;
   margin: 0 auto;
 }
 
-.mentorHeroImage{
+.mentorHeroImage {
   width: 100%;
   border-radius: 5px;
 }
 
-@media screen and (max-width: 480px) {
-  .mentor{
+@media screen and (max-width: 600px) {
+  .mentor {
     flex-direction: column;
+    text-align: center;
   }
-  .mentorAbove h3{
-    font-size: 32px;
-    line-height: 40px;
-  }
-  .mentorHero{
+  .mentorHero {
     width: 99%;
   }
-  .mentorAbove p{
-  font-size: 18px;
-  line-height: 25px;
-  /* or 139% */
-  color: #5A7184
+  .mentorAbove p {
+    text-align: center;
   }
-}  
+}
+@media screen and (min-width: 601px) {
+  .mentorHero {
+    padding-right: 2rem;
+    min-width: 175px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .mentorHero {
+    min-width: 300px;
+  }
+}

@@ -1,33 +1,22 @@
 .container {
   width: 100%;
-  height: 230px;
-  background: #1565d8;
+
+  background: rgb(228, 222, 222);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 25px;
+  padding: 10vw;
 }
-
-.header h2 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  color: white;
-  text-align: center;
+.header {
+  color: #183b56;
 }
-
 .info {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 10px 0 20px;
+  color: rgb(90, 74, 74);
 }
 .info p {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 0.8rem;
-  color: white;
-  text-align: center;
+  padding-bottom: 2rem;
 }
-
 .actionContainer {
   width: 60%;
   margin: 0 auto;
@@ -45,7 +34,7 @@
 .input {
   align-self: center;
   width: 97%;
-  padding: .3em 1em;
+  padding: 0.3em 1em;
   height: 100%;
   font-size: 1rem;
   border: 1px solid rgb(211, 204, 204);
@@ -61,14 +50,20 @@
 .button {
   width: 100%;
   height: 100%;
-  padding: .3em;
+  padding: 0.3em;
 }
 
 .error {
   color: red;
 }
-
+.donate {
+  margin: 1.5rem;
+  font-weight: bold;
+}
 @media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
   .actionContainer {
     width: 80%;
     flex-direction: column;
@@ -84,9 +79,8 @@
   }
 
   .info p {
+    text-align: center;
+
     font-size: 1rem;
   }
-}
-
-@media (min-width: 769px) {
 }

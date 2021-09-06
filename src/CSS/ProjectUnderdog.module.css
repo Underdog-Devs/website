@@ -1,0 +1,28 @@
+.projectUD {
+  display: flex;
+
+  padding: 10vw;
+}
+.heroAbove {
+  display: flex;
+}
+.heroBelow {
+  display: flex;
+
+  text-align: center;
+}
+.heroBelow img {
+  width: 25vw;
+}
+
+@media screen and (max-width: 900px) {
+  .projectUD {
+    flex-wrap: wrap;
+  }
+
+  .heroBelow img {
+    margin-top: 1rem;
+    width: 60vw;
+    margin-left: 14%;
+  }
+}
