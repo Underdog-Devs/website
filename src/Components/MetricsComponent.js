@@ -91,5 +91,4 @@ const MetricsComponent = () => {
     </Row>
   );
 };
-
 export default MetricsComponent;
