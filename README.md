@@ -1,6 +1,6 @@
 # UnderDog Devs:
 
-# [www.underdogdevs.org](https://www.underdogdevs.org)
+## [www.UnderdogDevs.org](https://www.UnderdogDevs.org)
 
 ## Built By:
 
@@ -13,5 +13,3 @@
 
 # About Us
 Welcome to UnderDog Devs! We are a group of software developers supporting the formerly incarcerated in their transition into the software industry.
-
-
