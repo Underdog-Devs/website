@@ -12,8 +12,8 @@ export default function WhatIsAMentor() {
           What Is A Mentor?
         </h3>
         <p>
-          Our mentors are industry experts. They are experienced Software
-          Engineers from all over the industry who are committed to guiding the
+          Our mentors are industry experts. They are experienced software
+          engineers from all over the industry who are committed to guiding the
           Underdog Devs. They have bi-weekly meetings with their mentees where
           they offer support in the form of encouragement, interview prep,
           resume analysis, and coding practice. The mentors develop
