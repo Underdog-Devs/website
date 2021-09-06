@@ -22,3 +22,7 @@
   justify-content: center;
   margin-top: 2rem;
 }
+.showOrHideStats {
+  text-decoration: underline;
+  color: blue;
+}

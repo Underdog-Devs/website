@@ -25,12 +25,12 @@ function Stats() {
               improves the life quality of individual ex-prisoners.
             </p>
             <div className={styles.statsButtonContainer}>
-              <button
-                className="btn btn-secondary"
+              <span
+                className={styles.showOrHideStats}
                 onClick={() => setisHidden(!isHidden)}
               >
-                {isHidden ? 'Less' : 'More'} Statistics
-              </button>
+                {isHidden ? 'Less	∨' : 'More ^'}
+              </span>
             </div>
           </Col>
           <Col className={styles.statItem}>
