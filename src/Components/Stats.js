@@ -29,7 +29,7 @@ function Stats() {
                 className={styles.showOrHideStats}
                 onClick={() => setisHidden(!isHidden)}
               >
-                {isHidden ? 'Less	∨' : 'More ^'}
+                {isHidden ? 'Less	^' : 'More ∨'}
               </span>
             </div>
           </Col>
