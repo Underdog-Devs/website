@@ -2,7 +2,7 @@ import React from 'react';
 import globalStyles from '../CSS/globalStyles.module.css';
 import styles from '../CSS/ProjectUnderdog.module.css';
 import { Row, Col } from 'antd';
-import underdog_hero from '../Assets/underdog_hero.jpeg';
+// import underdog_hero from '../Assets/underdog_hero.jpeg';
 
 export default function ProjectUnderdog() {
   return (
@@ -22,13 +22,13 @@ export default function ProjectUnderdog() {
             </p>
           </Col>
         </div>
-        <div className={styles.heroBelow}>
+        {/* <div className={styles.heroBelow}>
           <img
             src={underdog_hero}
             alt="Cartoon Underdog flying to the rescue"
             position="center"
           />
-        </div>
+        </div> */}
       </div>
     </Row>
   );
