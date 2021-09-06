@@ -56,7 +56,9 @@
 .error {
   color: red;
 }
-
+.donate {
+  margin: 1.5rem;
+}
 @media (max-width: 768px) {
   .header {
     text-align: center;

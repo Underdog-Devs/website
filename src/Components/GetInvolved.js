@@ -76,6 +76,14 @@ const GetInvolved = () => {
           </button>
         </div>
       </form>
+      <a
+        href="https://www.paypal.com/paypalme/underdogdevs"
+        className={styles.donate}
+        rel="noreferrer"
+        target="_blank"
+      >
+        Donate Here
+      </a>
     </div>
   );
 };
