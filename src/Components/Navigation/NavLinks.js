@@ -44,7 +44,7 @@ export const NavLinks = ({ isMobile, setOpen }) => {
         <form
           action="https://www.paypal.com/donate"
           method="post"
-          target="_top"
+          target="_blank"
         >
           <input type="hidden" name="hosted_button_id" value="2R2AP79YGLEXJ" />
           <input
