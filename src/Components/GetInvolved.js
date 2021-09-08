@@ -77,6 +77,7 @@ const GetInvolved = () => {
         </div>
       </form>
       <form
+        className={styles.donate}
         action="https://www.paypal.com/donate"
         method="post"
         target="_blank"
