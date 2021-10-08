@@ -76,14 +76,37 @@ const GetInvolved = () => {
           </button>
         </div>
       </form>
-      <a
-        href="https://www.paypal.com/paypalme/underdogdevs"
+      <div className={styles.alternateEmail}>
+        <p>
+          Or reach the team directly at{' '}
+          <a href="mailto:underdogdevsteam@gmail.com">
+            underdogdevsteam@gmail.com
+          </a>
+        </p>
+      </div>
+      <form
         className={styles.donate}
-        rel="noreferrer"
+        action="https://www.paypal.com/donate"
+        method="post"
         target="_blank"
       >
-        Donate Here
-      </a>
+        <input type="hidden" name="hosted_button_id" value="2R2AP79YGLEXJ" />
+        <input
+          type="image"
+          src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+          border="0"
+          name="submit"
+          title="PayPal - The safer, easier way to pay online!"
+          alt="Donate with PayPal button"
+        />
+        <img
+          alt=""
+          border="0"
+          src="https://www.paypal.com/en_US/i/scr/pixel.gif"
+          width="1"
+          height="1"
+        />
+      </form>
     </div>
   );
 };
