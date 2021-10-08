@@ -76,6 +76,14 @@ const GetInvolved = () => {
           </button>
         </div>
       </form>
+      <div className={styles.alternateEmail}>
+        <p>
+          Or reach the team directly at{' '}
+          <a href="mailto:underdogdevsteam@gmail.com">
+            underdogdevsteam@gmail.com
+          </a>
+        </p>
+      </div>
       <form
         className={styles.donate}
         action="https://www.paypal.com/donate"
