@@ -2,48 +2,48 @@ import React from 'react';
 import styles from '../CSS/GetInvolved.module.css';
 import globalStyles from '../CSS/globalStyles.module.css';
 import { Row } from 'antd';
-import { MailOutlined } from '@ant-design/icons';
-import emailjs from 'emailjs-com';
-// import { useForm } from "react-hook-form";
-import { useState } from 'react';
+// import { MailOutlined } from '@ant-design/icons';
+// import emailjs from 'emailjs-com';
+// // import { useForm } from "react-hook-form";
+// import { useState } from 'react';
 const GetInvolved = () => {
-  const [email, setEmail] = useState('');
-  const [errors, setErrors] = useState('');
-  const handleEmailChange = e => {
-    const { value } = e.target;
-    setEmail(value);
-  };
+  //   const [email, setEmail] = useState('');
+  //   const [errors, setErrors] = useState('');
+  //   const handleEmailChange = e => {
+  //     const { value } = e.target;
+  //     setEmail(value);
+  //   };
 
-  const sendEmail = e => {
-    e.preventDefault();
-    let emailValid = /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i.test(email);
-    if (emailValid) {
-      emailjs
-        .sendForm(
-          process.env.REACT_APP_SERVICE_ID,
-          process.env.REACT_APP_TEMPLATE_ID,
-          e.target,
-          process.env.REACT_APP_USER_ID
-        )
-        .then(
-          result => {
-            console.log(result.text);
-          },
-          error => {
-            console.log(error.text);
-          }
-        );
-    }
-    setEmail('');
-    setErrors('');
-  };
+  //   const sendEmail = e => {
+  //     e.preventDefault();
+  //     let emailValid = /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i.test(email);
+  //     if (emailValid) {
+  //       emailjs
+  //         .sendForm(
+  //           process.env.REACT_APP_SERVICE_ID,
+  //           process.env.REACT_APP_TEMPLATE_ID,
+  //           e.target,
+  //           process.env.REACT_APP_USER_ID
+  //         )
+  //         .then(
+  //           result => {
+  //             console.log(result.text);
+  //           },
+  //           error => {
+  //             console.log(error.text);
+  //           }
+  //         );
+  //     }
+  //     setEmail('');
+  //     setErrors('');
+  //   };
 
   return (
     <div className={styles.container} id="get-involved">
       <Row className={`${globalStyles.headerText} ${styles.header}`}>
         <h2>Want to Get Involved?</h2>
       </Row>
-      <Row className={`${globalStyles.normalP} ${styles.info}`}>
+      {/* <Row className={`${globalStyles.normalP} ${styles.info}`}>
         <p>
           Input your email into the form below to have a member contact you with
           more information.
@@ -75,10 +75,10 @@ const GetInvolved = () => {
             Submit
           </button>
         </div>
-      </form>
+      </form> */}
       <div className={styles.alternateEmail}>
         <p>
-          Or reach the team directly at{' '}
+          You can reach the team directly at{' '}
           <a href="mailto:underdogdevsteam@gmail.com">
             underdogdevsteam@gmail.com
           </a>
