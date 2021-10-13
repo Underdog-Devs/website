@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../../CSS/Logo.module.css';
-import logo from '../../Assets/UD_Logo.webp';
+import logo from '../../Assets/ud-logo.png';
 export default function Logo() {
   return (
     <div className={styles.logo}>
