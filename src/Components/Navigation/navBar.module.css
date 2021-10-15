@@ -67,7 +67,6 @@ nav ul li {
 .navigation {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 @media (min-width: 900px) {
