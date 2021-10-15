@@ -64,6 +64,10 @@ nav ul li {
   color: var(--orange) !important;
   border-color: var(--orange) !important;
 }
+.navigation {
+  display: flex;
+  align-items: center;
+}
 
 @media (min-width: 900px) {
   .navLink {
