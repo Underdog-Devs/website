@@ -76,10 +76,8 @@ const Story = () => {
           <AiFillMail size="35px" color="#fff" />
         </a>
       </div>
-      <div className={styles.storyFooter}>
-        <p className={styles.storyp}>Founded September 2020</p>
-        <p className={styles.storyp1}>We currently depend 100% on volunteers</p>
-      </div>
+      <p className={styles.storyp}>Founded September 2020</p>
+      <p className={styles.storyp1}>We currently depend 100% on volunteers</p>
     </div>
   );
 };

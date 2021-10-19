@@ -1,7 +1,6 @@
 .logo {
   display: flex;
-  align-items: center;
-  /* justify-content: left; */
+  justify-content: left;
   color: rgb(245, 121, 20);
   font-family: monospace, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
