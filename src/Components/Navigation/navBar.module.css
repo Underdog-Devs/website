@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .hamburger {
   color: white;
   position: absolute;
